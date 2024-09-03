@@ -7,7 +7,9 @@
     --text-primary: #3e3e3e;
     --text-secondary: #bababa;
 }
-
+body{
+    overflow-x: hidden;
+}
 * {
     margin: 0;
     padding: 0;
@@ -757,70 +759,4 @@ footer{
     cursor: pointer;
     text-transform:initial;
 }
-.footer{
-    color: var(--primary);
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    background-color: var(--secondary);
-}
-.logo-text{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
-.image-05{
-    width:auto;
-    height: 23vh;
-    margin: 7% 0 0% 5%;
-}
-.text-logo{
-    text-align: start;
-    padding: 1px;
-}
-.texts{
-    color: var(--primary);
-    font-size: 18px;
-    text-decoration: none;
-}
-.contact-us{
-    margin-top: 10%;
-}
-.company{
-    margin-top: 10%;
-}
-.i{
-    font-weight: bold;
-    padding: 0px 5px 20px 0px;
-}
-li{
-    list-style: none;   
-}
-.subscribe{
-    margin-top: 10%;
-}
-.free{
-    color: var(--primary);
-    margin-left: 50px;
-}
-i{
-    margin: 5px;
-}
-.input{
-    display: flex;
-    gap:10px;
-    margin-top: 2%;
-    margin-left: 50px;
-}
-.input-1{
-    width: 15vw;
-    height: 7vh;
-}
-.send{
-    padding: 7px 15px;
-    background-color: var(--secondary);
-    color: var(--primary);
-    font-size: 14px;
-    font-weight: bold;
-    border: 2px solid whitesmoke;
-}
+
