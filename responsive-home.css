@@ -3,7 +3,7 @@
         width: 100%;
     }
     body{
-        overflow: hidden;
+        overflow-x: hidden;
     }    
     .hello{
         margin-top: 25%;
