@@ -67,7 +67,8 @@ main-unique {
     font-size: 28px;
     color: var(--secondary);
     margin-bottom: 20px;
-    margin-top: 10%;
+    margin-top: 12%;
+    padding: 20px;
 }
 
 .form-description-unique {
