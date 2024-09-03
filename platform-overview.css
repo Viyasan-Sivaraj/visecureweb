@@ -336,130 +336,127 @@ margin-top: 5%; /* Stack elements vertically within header-1 */
     padding: 10% ;
 }
 
-.mceob .card {
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    max-width: 200px;
-    min-width: 200px;
-    height: 220px;
-    border: none;
-    border-radius: 20px;
-    position: absolute;
-    left: 100%;
-    animation: scroll-left 20s linear infinite;
-    margin: 5px;
-}
-
-.mceob .card-container {
-    width: 100%;
+.slider {
+    display: grid;
+    place-items: center;
     height: 250px;
-    display: flex;
-    align-items: start;
-    gap: 10px;
-    padding: 10px;
+    margin: auto;
     position: relative;
-}
-
-.mceob .card-1 {
-    animation-delay: calc(20s / 12 * (12 - 2) * -1 );
-    background-color: #ccc;
-    color: var(--secondary);
-}
-
-.mceob .card-2 {
-    animation-delay: calc(20s / 12 * (12 - 4) * -1 );
-    background-color: var(--secondary);
-    color: var(--primary);
-}
-.mceob .card-3 {
-    animation-delay: calc(20s / 12 * (12 - 6) * -1 );
-    background-color: #ccc;
-    color: var(--secondary);
-}
-.mceob .card-4 {
-    animation-delay: calc(20s / 12 * (12 - 8) * -1 );
-    background-color: var(--secondary);
-    color: var(--primary);
-}
-.mceob .card-5 {
-    animation-delay: calc(20s / 12 * (12 - 10) * -1 );
-    background-color: #ccc;
-    color: var(--secondary);
-}
-.mceob .card-6 {
-    animation-delay: calc(20s / 12 * (12 - 12) * -1 );
-    background-color: var(--secondary);
-    color: var(--primary);
-}
-@keyframes scroll-left {
-    to {
-        left: -220px;
-    }
-}
-
-
-.mceob .cards {
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    max-width: 200px;
-    min-width: 200px;
-    height: 200px;
-    border: none;
-    border-radius: 20px;
-    position: absolute;
-    left: -200px;
-    animation: scroll-right 20s linear infinite;
-}
-
-
-.mceob .cards-1 {
-    animation-delay: calc(20s / 12 * (12 - 2));
-    background-color: var(--secondary);
-    color: var(--primary);
-}
-
-.mceob .cards-2 {
-    animation-delay: calc(20s / 12 * (12 - 4) );
-    background-color: #ccc;
-    color: var(--secondary);
-}
-.mceob .cards-3 {
-    animation-delay: calc(20s / 12 * (12 - 6));
-    background-color: var(--secondary);
-    color: var(--primary);
-}
-.mceob .cards-4 {
-    animation-delay: calc(20s / 12 * (12 - 8) );
-    background-color: #ccc;
-    color: var(--secondary);
-}
-.mceob .cards-5 {
-    animation-delay: calc(20s / 12 * (12 - 10) );
-    background-color: var(--secondary);
-    color: var(--primary);
-}
-.mceob .cards-6 {
-    animation-delay: calc(20s / 12 * (12 - 12));
-    background-color: #ccc;
-    color: var(--secondary);
-}
-
-.card-container{
+    width: 90%;
     overflow: hidden;
 }
 
-@keyframes scroll-right {
-    to {
-        left: 100%;
-    }
-}
-.class-image{
-    width: auto;
-    height: 10vh;
+.slider-track {
+    display: flex;
+    width: calc(250px * 14); /* Adjust width according to the number of slides */
+    animation: scroll 20s linear infinite;
 }
 
+.slide {
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 7)); /* Move by the total width of all slides */
+    }
+}
+
+.animation {
+    width: 100%;
+}
+
+.slider::before,
+.slider::after {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0));
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 15%;
+    z-index: 2;
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.slider-1 {
+display: grid;
+place-items: center;
+height: 250px;
+margin: auto;
+position: relative;
+width: 100%;
+overflow: hidden;
+margin-top: 5%;
+}
+
+.slider-track-1 {
+display: flex;
+width: calc(250px * 14); /* Adjust width according to the number of slides */
+animation: scrolls 20s linear infinite;
+}
+
+.slide-1 {
+height: 200px;
+width: 250px;
+gap:10px;
+display: flex;
+align-items: center;
+padding: 10px;
+border: 1px solid black;
+border-radius: 20px;
+}
+
+@keyframes scrolls {
+0% {
+transform: translateX(calc(-250px * 7)); /* Move by the total width of all slides */
+}
+100% {
+transform: translateX(250px *7); /* Move to the left end, off-screen */
+}
+}
+
+.animation {
+width: 90%;
+}
+
+.slider-1::before,
+.slider-1::after {
+background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0));
+content: '';
+height: 100%;
+position: absolute;
+width: 15%; /* Adjust width as needed */
+z-index: 2;
+}
+
+.slider-1::before {
+left: 0;
+top: 0;
+}
+
+.slider-1::after {
+right: 0;
+top: 0;
+transform: rotateZ(180deg);
+}
 
 /*End of Growing Collection */
 
