@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/security-modules.css">
+    <link rel="stylesheet" href="/style/responsive-sm.css">
+    <link rel="stylesheet" href="/style/navbar-style.css">
+    <link rel="stylesheet" href="/style/footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Visecure</title>
+    <link rel="icon" type="image/x-icon" href="/assets/website-logo.png">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="/assets/logo-in.png" class="logo-in" alt="visecure"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Solutions
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li>
+                      <table class="table">
+                              <thead>
+                                  <tr class="tr">
+                                      <th class="th">Visecure Platform</th>
+                                      <th>Visecure Vault</th>
+                                  </tr class="tr">
+                              </thead>
+                              <tbody>
+                                  <tr class="tr">
+                                      <td class="td"><a class="dropdown-item" href="/pages/platform-overview.html">Visecure platform Overview</a></td>
+                                      <td class="td"><a class="dropdown-item" href="/pages/cloud-storage.html">Decentralized Cloud Storage</a></td>
+                                  </tr>
+                                  <tr class="tr">
+                                      <td class="td"><a class="dropdown-item" href="/pages/security-modules.html">Security Modules</a></td>
+                                      <td class="td"></td>
+                                  </tr>
+                                  <tr class="tr">
+                                      <td class="td"><a class="dropdown-item" href="/pages/Managed-Services.html">Managed Services</a></td>
+                                      <td class="td"></td>
+                                  </tr>
+                                  <tr class="tr">
+                                      <td class="td"><a class="dropdown-item" href="/pages/price.html">Pricing</a></td>
+                                      <td class="td"></td>
+                                  </tr>
+                                  <tr class="tr">
+                                      <td class="td" ><a class="dropdown-item" href="/pages/comp.html">Compliance Management</a></td>
+                                      <td class="td"></td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                          <div class="mobile-view">
+                              <div><strong>Visecure Platform</strong></div>
+                              <div><a href="/pages/platform-overview.html" class="dropdown-item">Visecure platform Overview</a></div>
+                              <div><a href="/pages/security-modules.html" class="dropdown-item active">Security Modules</a></div>
+                              <div><a href="/pages/Managed-Services.html" class="dropdown-item">Managed Services</a></div>
+                              <div><a href="/pages/price.html" class="dropdown-item">Pricing</a></div>
+                              <div><a href="/pages/comp.html" class="dropdown-item">Compliance Management</a></div>
+                              <hr>
+                              <div><strong>Visecure Vault</strong></div>
+                              <div><a href="/pages/cloud-storage.html" class="dropdown-item">Decentralized Cloud Storage</a></div>
+                          </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li>
+                    <div class="table-responsive">
+                      <table class="table mb-0">
+                        <thead>
+                          <tr>
+                            <th>Cyber security Solutions</th>
+                            <th>Digital Services</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td><a class="dropdown-item" href="/pages/product.html">VAPT</a></td>
+                            <td><a class="dropdown-item" href="/pages/services.htmt">Web Development</a></td>
+                          </tr>
+                          <tr>
+                            <td><a class="dropdown-item" href="/pages/product.html">Virtual Cyber Security</a></td>
+                            <td><a class="dropdown-item" href="/pages/services.html">Software Development</a></td>
+                          </tr>
+                          <tr>
+                            <td><a class="dropdown-item" href="/pages/product.html">Managed Security Services</a></td>
+                            <td><a class="dropdown-item" href="/pages/services.html">Web Designing</a></td>
+                          </tr>
+                          <tr>
+                            <td><a class="dropdown-item" href="/pages/product.html">SOC as a Services</a></td>
+                            <td><a class="dropdown-item" href="/pages/services.html">E-commerce Development</a></td>
+                          </tr>
+                          <tr>
+                            <td><a class="dropdown-item" href="/pages/product.html">Compliance Management</a></td>
+                            <td><a class="dropdown-item" href="/pages/services.html">Hire Developers</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="mobile-view">
+                        <div><strong>Cyber security Solutions</strong></div>
+                        <div><a href="/pages/product.html" class="dropdown-item">VAPT</a></div>
+                        <div><a href="/pages/product.html" class="dropdown-item">Virtual Cyber Security</a></div>
+                        <div><a href="/pages/product.html" class="dropdown-item">Managed Security Services</a></div>
+                        <div><a href="/pages/product.html" class="dropdown-item">SOC as a Services</a></div>
+                        <div><a href="/pages/product.html" class="dropdown-item">Compliance Management</a></div>
+                        <hr>
+                        <div><strong>Digital Services</strong></div>
+                        <div><a href="/pages/services.html" class="dropdown-item">Web Development</a></div>
+                        <div><a href="/pages/services.html" class="dropdown-item">Software Development</a></div>
+                        <div><a href="/pages/services.html" class="dropdown-item">Web Designing</a></div>
+                        <div><a href="/pages/services.html" class="dropdown-item">E-commerce Development</a></div>
+                        <div><a href="/pages/services.html" class="dropdown-item">Hire Developers</a></div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+          </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/pages/partner.html">Partners</a>
+                </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Industries
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/pages/software.html">Software Technology</a></li>
+                    <li><a class="dropdown-item" href="/pages/it-oraganisation.html">Learn IT</a></li>
+                    <li><a class="dropdown-item" href="/pages/school.html">Education Institution</a></li>
+                    <li><a class="dropdown-item" href="/pages/hospitals.html">Hospitals</a></li>
+                    <li><a class="dropdown-item" href="/pages/finance.html">Finance</a></li>
+                    <li><a class="dropdown-item" href="/pages/manufactures.html">Manufacturers</a></li>
+                    <li><a class="dropdown-item" href="/pages/Goverment.html">Government</a></li>
+                    <li><a class="dropdown-item active" href="/pages/Automative.html">Automobile</a></li>
+                    <li><a class="dropdown-item" href="/pages/logistic.html">Trucking</a></li>
+                  </ul>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <!-- Form with Buttons -->
+            <form class="d" style="display: flex; gap:20px" role="search">
+                <button class="btn-20" type="button" onclick="location.href='/pages/book.html'" >Book a Demo</button>
+                <button class="btn-30" type="button" id="open-popup">Get Started</button>
+            </form>
+            
+                        <!-- Popup Structure -->
+                        <div class="popup-overlay" id="popup">
+                            <div class="popup-content">
+                                <button class="close-popup">&times;</button> <!-- Close button styled as * -->
+                                <div class="container">
+                                    <div class="left-column">
+                                        <h1>Book a Free Demo</h1>
+                                        <p><b>Try Visecure for Free for the next 14 days</b></p>
+                                        <form action="https://api.web3forms.com/submit" method="POST" id="popupForm">
+                                            <input type="hidden" name="access_key" value="bc0644a7-98c2-4e83-bc37-15f82b879bc5">
+                                            <label for="email">Business Email</label>
+                                            <input type="email" id="email" name="email" placeholder="Enter your business email" required>
+                                            <button type="submit">Continue</button>
+                                        </form>
+                                    </div>
+                                    <div class="right-column">
+                                        <h2>Visecure: Simplifying Your Path to Cybersecurity Excellence</h2>
+                                        <ul>
+                                            <li>Automatically neutralize over 95% of email threats before they reach your inbox.</li>
+                                            <li>Simplify cloud app security management with an all-in-one dashboard.</li>
+                                            <li>Secure devices across the digital landscape with comprehensive protection.</li>
+                                            <li>Safeguard against data breaches with an effortlessly effective solution.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+        
+            
+            <div onclick="location.href='https://visecure.coro.net/login'" class="login-image" style="display: flex; flex-direction: column; padding-left: 20px; padding-top: 7px; cursor: pointer;">
+                <img src="/assets/login.png" alt="image" width="34px" height="auto">
+                <div>login</div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- Mobile Navbar End  -->
+
+    <div class="main-container" >
+        <!-- Header -->
+        <div class="header">
+            <div style="color: #091C45; font-size: 34px; font-weight: bold;">Cybersecurity Modules</div>
+            <p>
+                Modules are self-contained security components that can be turned on or off within the Visecure platform. Each module performs as well as, or better than, legacy solutions in its security domain.
+            </p>
+        </div>
+        <!-- Header End -->
+
+        <!-- Modules -->
+        <div class="modules part-1">
+            <div class="heading">
+                Modules for Protecting Endpoints
+            </div>
+            <div class="box box-1">
+                <div class="logo-in">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="65" height="67" viewBox="0 0 65 67" fill="none">
+                        <g clip-path="url(#clip0_20_1304)">
+                            <g clip-path="url(#clip1_20_1304)">
+                                <g clip-path="url(#clip2_20_1304)">
+                                    <path d="M16.0503 55.0747L31.7003 64.0247C33.5803 65.0947 35.9003 65.0947 37.7803 64.0247L60.0803 51.2647C61.9603 50.1847 63.1203 48.2047 63.1203 46.0547V20.5447C63.1203 18.3947 61.9603 16.4047 60.0803 15.3347L37.7803 2.58466C35.9003 1.50466 33.5803 1.50466 31.7003 2.58466L17.7503 10.5647" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M27.5 56.1946H41.72" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M51.73 10.555H4.82994C2.95994 10.555 1.43994 12.095 1.43994 13.995V40.475" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M58.11 45.2542H1.43994V46.9842C1.43994 48.8842 2.95994 50.4242 4.82994 50.4242H61.23" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M34.6101 17.2346C35.4385 17.2346 36.1101 16.5631 36.1101 15.7346C36.1101 14.9062 35.4385 14.2346 34.6101 14.2346C33.7817 14.2346 33.1101 14.9062 33.1101 15.7346C33.1101 16.5631 33.7817 17.2346 34.6101 17.2346Z" fill="#262260"/>
+                                </g>
+                            </g>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_20_1304">
+                                <rect width="65" height="66" fill="white" transform="translate(0 0.219971)"/>
+                            </clipPath>
+                            <clipPath id="clip1_20_1304">
+                                <rect width="65" height="66" fill="white" transform="translate(0 0.219971)"/>
+                            </clipPath>
+                            <clipPath id="clip2_20_1304">
+                                <rect width="65" height="66" fill="white" transform="translate(0 0.219971)"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="context">
+                    <div class="heading-1">
+                        Endpoint Security
+                    </div>
+                    <div class="text-content">
+                        Endpoint Security is the core endpoint module in Visecure.
+                    </div>
+                    <div class="sub-heading">
+                        Capabilities:
+                        <div class="sub-content">
+                           <li><span>Device Posture:</span> Apply policies to users or groups and determine the remediation action for vulnerabilities.</li>
+                        </div>
+                        <div class="sub-content">
+                            <li><span>Next-gen Antivirus:</span> Advanced threat protection (ATP) analyzes both static files and running processes for anomalies.</li>
+                        </div>
+                        <div class="sub-content">
+                           <li><span>Allow/Block Lists:</span> Create lists of files, folders, and processes to allow or block on your protected endpoints.</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="../assets/img-1.png" alt="" width="25vw" height="auto" class="img">
+                </div>
+            </div>
+            <div class="box box-1">
+                <div class="logo-in">
+                    <svg width="60" height="67" viewBox="0 0 60 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_20_1341)">
+                        <path d="M1.90166 19.8481C2.21992 19.8481 2.52514 19.9746 2.75019 20.1996C2.97523 20.4247 3.10166 20.7299 3.10166 21.0481V46.5581C3.10166 48.2781 4.02766 49.8681 5.53466 50.7321L27.8377 63.4882C28.5817 63.9126 29.4235 64.1359 30.2802 64.1359C31.1368 64.1359 31.9786 63.9126 32.7227 63.4882L47.2377 55.1861C47.3745 55.1067 47.5257 55.055 47.6826 55.0342C47.8394 55.0134 47.9989 55.0238 48.1517 55.0648C48.3045 55.1058 48.4477 55.1767 48.5731 55.2733C48.6984 55.3699 48.8034 55.4904 48.882 55.6277C48.9606 55.7651 49.0113 55.9166 49.0311 56.0736C49.0509 56.2306 49.0394 56.39 48.9974 56.5426C48.9553 56.6951 48.8835 56.8379 48.7861 56.9626C48.6887 57.0873 48.5675 57.1915 48.4297 57.2691L33.9147 65.5712C32.8077 66.2033 31.5549 66.5358 30.2802 66.5358C29.0054 66.5358 27.7526 66.2033 26.6457 65.5712L4.34166 52.8141C3.2376 52.1845 2.3195 51.2743 1.68031 50.1757C1.04111 49.0771 0.703501 47.8291 0.70166 46.5581V21.0481C0.70166 20.7299 0.828088 20.4247 1.05313 20.1996C1.27818 19.9746 1.5834 19.8481 1.90166 19.8481ZM3.64766 8.22212L11.9897 23.3251L17.0547 13.7081C17.1486 13.5296 17.286 13.3776 17.4542 13.2662C17.6224 13.1549 17.816 13.0877 18.0171 13.0709C18.2181 13.0542 18.4202 13.0884 18.6045 13.1704C18.7888 13.2524 18.9495 13.3796 19.0717 13.5401L19.1477 13.6551L27.0747 26.9931C28.6863 26.2262 30.526 26.0877 32.2343 26.6046C33.9427 27.1216 35.3969 28.2569 36.313 29.7887C37.229 31.3205 37.5411 33.1388 37.1882 34.8884C36.8353 36.638 35.8429 38.1932 34.4047 39.2501L41.3847 50.9961L46.4887 41.3071C46.5843 41.1256 46.7249 40.9717 46.897 40.86C47.0691 40.7483 47.2669 40.6826 47.4717 40.6691C47.6764 40.6557 47.8812 40.695 48.0664 40.7832C48.2516 40.8715 48.4111 41.0057 48.5297 41.1731L48.6007 41.2861L58.0177 58.3361C58.1611 58.6138 58.1907 58.9364 58.0999 59.2355C58.0092 59.5345 57.8054 59.7864 57.5318 59.9375C57.2583 60.0886 56.9366 60.1271 56.6351 60.0446C56.3337 59.9622 56.0763 59.7654 55.9177 59.4961L47.5747 44.3941L42.5107 54.0111C42.4167 54.1897 42.2793 54.3417 42.1111 54.4531C41.9429 54.5644 41.7493 54.6316 41.5482 54.6483C41.3472 54.6651 41.1452 54.6309 40.9608 54.5489C40.7765 54.4669 40.6158 54.3397 40.4937 54.1791L40.4167 54.0651L32.2587 40.3341C30.7239 40.8081 29.0746 40.7532 27.5748 40.1782C26.0749 39.6033 24.8115 38.5416 23.9868 37.1632C23.1622 35.7849 22.824 34.1696 23.0265 32.5762C23.229 30.9828 23.9604 29.5034 25.1037 28.3751L18.1787 16.7231L13.0767 26.4121C12.9811 26.5939 12.8405 26.748 12.6683 26.8599C12.4961 26.9717 12.2981 27.0375 12.0932 27.051C11.8883 27.0644 11.6834 27.0251 11.4981 26.9367C11.3127 26.8483 11.1532 26.7138 11.0347 26.5461L10.9647 26.4331L1.54666 9.38312C1.39506 9.10467 1.3598 8.77755 1.44859 8.4732C1.53739 8.16885 1.74301 7.91201 2.02056 7.75877C2.2981 7.60553 2.62501 7.56836 2.92988 7.65536C3.23475 7.74236 3.49279 7.94548 3.64766 8.22212ZM33.9147 2.03812L56.2147 14.7941C57.3199 15.4226 58.2391 16.3323 58.8791 17.4309C59.5191 18.5294 59.8571 19.7778 59.8587 21.0491V46.5591C59.8587 46.8774 59.7322 47.1826 59.5072 47.4077C59.2821 47.6327 58.9769 47.7591 58.6587 47.7591C58.3404 47.7591 58.0352 47.6327 57.8101 47.4077C57.5851 47.1826 57.4587 46.8774 57.4587 46.5591V21.0491C57.4587 19.3291 56.5327 17.7391 55.0237 16.8771L32.7217 4.12212C31.978 3.69695 31.1363 3.4733 30.2797 3.4733C29.4231 3.4733 28.5813 3.69695 27.8377 4.12212L12.1917 13.0721C11.9153 13.2302 11.5875 13.272 11.2803 13.1884C10.9731 13.1047 10.7117 12.9025 10.5537 12.6261C10.3956 12.3498 10.3538 12.022 10.4374 11.7148C10.5211 11.4076 10.7233 11.1462 10.9997 10.9881L26.6447 2.04012C27.7514 1.4067 29.0045 1.07349 30.2797 1.07349C31.5548 1.07349 32.8079 1.4067 33.9147 2.04012V2.03812ZM30.1467 28.7041C29.5141 28.695 28.8861 28.8117 28.299 29.0474C27.712 29.2831 27.1776 29.6332 26.7271 30.0773C26.2765 30.5214 25.9187 31.0506 25.6745 31.6342C25.4303 32.2177 25.3046 32.844 25.3046 33.4766C25.3046 34.1093 25.4303 34.7356 25.6745 35.3191C25.9187 35.9027 26.2765 36.4319 26.7271 36.876C27.1776 37.3201 27.712 37.6702 28.299 37.9059C28.8861 38.1416 29.5141 38.2583 30.1467 38.2491C31.4004 38.231 32.5967 37.7202 33.4769 36.8272C34.3571 35.9341 34.8506 34.7306 34.8506 33.4766C34.8506 32.2227 34.3571 31.0192 33.4769 30.1261C32.5967 29.2331 31.4004 28.7223 30.1467 28.7041Z" fill="#262260"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_20_1341">
+                        <rect width="60" height="66" fill="white" transform="translate(0 0.719971)"/>
+                        </clipPath>
+                        </defs>
+                    </svg>                    
+                </div>
+                <div class="context">
+                    <div class="heading-1">
+                        Endpoint Detection and Response
+                    </div>
+                    <div class="text-content">
+                        The Endpoint Detection and Response (EDR) module extends your ability to handle incidents as they occur. You can remediate quickly to prevent further damage from known and unknown threat sources and to conduct post-breach analysis.
+                        <br><br>
+                        It continuously monitors endpoint devices and presents these findings in clear, easy-to-manage tabs from the Visecure dashboard. Filter through the data as needed, and receive remediation guidance and immediate responseactions.
+                    </div>
+                    <div class="sub-heading">
+                        Capabilities:
+                        <div class="sub-content">
+                          <li>Enhanced malicious software detection</li>
+                        </div>
+                        <div class="sub-content">
+                           <li>Proactive isolation of infected devices</li>
+                        </div>
+                        <div class="sub-content">
+                           <li>Automatic remediation across endpoints</li>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="/assets/EDR-new-img.svg" alt="" class="img-2">
+                </div>
+            </div>
+            <div class="box box-1">
+                <div class="logo-in">
+                    <svg width="65" height="67" viewBox="0 0 65 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_20_1367)">
+                    <g clip-path="url(#clip1_20_1367)">
+                    <g clip-path="url(#clip2_20_1367)">
+                    <path d="M18.0051 56.6673L31.7051 64.5073C33.5851 65.5773 35.9051 65.5773 37.7851 64.5073L60.0851 51.7473C61.9651 50.6673 63.1251 48.6873 63.1251 46.5373V21.0273C63.1251 18.8773 61.9651 16.8873 60.0851 15.8173L37.7751 3.05731C35.8951 1.97731 33.5751 1.97731 31.6951 3.05731L17.7451 11.0373" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M18.0051 56.6672H40.7851" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M51.7251 11.0276H4.82506C2.95506 11.0276 1.43506 12.5676 1.43506 14.4676V40.9476" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M1.43506 45.7268V47.4568C1.43506 49.3568 2.95506 50.8968 4.82506 50.8968H61.2251" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M34.605 17.7073C35.4334 17.7073 36.105 17.0357 36.105 16.2073C36.105 15.3789 35.4334 14.7073 34.605 14.7073C33.7766 14.7073 33.105 15.3789 33.105 16.2073C33.105 17.0357 33.7766 17.7073 34.605 17.7073Z" fill="#262260"/>
+                    <path d="M9.63501 31.2375H16.915" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M22.7852 31.0168H53.3552" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M9.63501 36.0471H53.355" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M9.63501 40.9475H28.875" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M34.7351 40.9475H53.3551" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    </g>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_20_1367">
+                    <rect width="65" height="66" fill="white" transform="translate(0 0.719971)"/>
+                    </clipPath>
+                    <clipPath id="clip1_20_1367">
+                    <rect width="65" height="66" fill="white" transform="translate(0 0.719971)"/>
+                    </clipPath>
+                    <clipPath id="clip2_20_1367">
+                    <rect width="65" height="66" fill="white" transform="translate(0 0.719971)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                </div>
+                <div class="context">
+                    <div class="heading-1">
+                        Endpoint Data Governance
+                    </div>
+                    <div class="text-content">
+                        The Endpoint Data Governance module protects sensitive data from unauthorized access, use, disclosure, modification, or destruction across endpoints.
+                        <br><br>
+                        To help ensure compliance with these regulatory standards, Visecure lets you remotely scan endpoints for:
+                    </div>
+                    <div class="sub-heading">
+                        Capabilities:
+                        <div class="sub-content">
+                         <li>PII (personally identifiable information)</li>
+                        </div>
+                        <div class="sub-content">
+                            <li>PHI (protected health information)</li>
+                        </div>
+                        <div class="sub-content">
+                           <li>PCI (payment card information)</li>
+                        </div>
+                        <div class="sub-content">
+                           <li>NPI (non-public information)</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="../assets/img-3.png" alt="" class="img">
+                </div>
+            </div>
+            <div class="box box-1">
+                <div class="logo-in">
+                    <svg width="42" height="54" viewBox="0 0 42 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_20_1406)">
+                    <g clip-path="url(#clip1_20_1406)">
+                    <g clip-path="url(#clip2_20_1406)">
+                    <path d="M21.28 34.8145C28.74 37.2345 39.2 30.1145 29.63 15.3245" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M15.1201 9.09497C15.1201 9.09497 15.1301 19.795 15.1201 29.185" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M36.15 18.7145L29.63 15.3245L28.24 22.3645" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M40.59 38.1251C29.93 27.4651 12.63 27.4651 1.96997 38.1251" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M33.58 45.1347C26.79 38.3447 15.78 38.3447 8.98999 45.1347" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M26.56 52.1551C23.64 49.2351 18.92 49.2351 16 52.1551" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M15.13 8.85501C16.8476 8.85501 18.24 7.46261 18.24 5.74501C18.24 4.0274 16.8476 2.63501 15.13 2.63501C13.4124 2.63501 12.02 4.0274 12.02 5.74501C12.02 7.46261 13.4124 8.85501 15.13 8.85501Z" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    </g>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_20_1406">
+                    <rect width="42" height="53" fill="white" transform="translate(0 0.469971)"/>
+                    </clipPath>
+                    <clipPath id="clip1_20_1406">
+                    <rect width="42" height="53" fill="white" transform="translate(0 0.469971)"/>
+                    </clipPath>
+                    <clipPath id="clip2_20_1406">
+                    <rect width="42" height="53" fill="white" transform="translate(0 0.469971)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>                    
+                </div>
+                <div class="context">
+                    <div class="heading-1">
+                        Wifi Phishing
+                    </div>
+                    <div class="text-content">
+                        The WiFi Phishing add-on guards endpoints outside the LAN (local area network) by preventing connections to suspicious WiFi access points. It works by detecting connections to WiFi access points that are suspicious of man-in-the-middle attacks aimed at hijacking device communication.
+                    </div>
+                    <div class="sub-heading">
+                        Protect:
+                        <div class="sub-content">
+                         <li>All devices in your workspace</li>
+                        </div>
+                        <div class="sub-content">
+                           <li>Specific groups of devices</li>
+                        </div>
+                        <div class="sub-content">
+                           <li>Remote/ traveling employees</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-4">
+                    <img src="/assets/endpoint-wifi-img.svg" alt="" class="img-4">
+                </div>
+            </div>
+            <div class="box box-1">
+                <div class="logo-in">
+                    <svg width="60" height="67" viewBox="0 0 60 67" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="60" height="66" transform="translate(0 0.72998)" fill="url(#pattern0_20_1439)"/>
+                    <defs>
+                    <pattern id="pattern0_20_1439" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_20_1439" transform="scale(0.0166667 0.0151515)"/>
+                    </pattern>
+                    <image id="image0_20_1439" width="60" height="66" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAABCCAYAAAAL1LXDAAAAAXNSR0IArs4c6QAABRdJREFUaEPtm81y1EYQx7tnbcyRvEBK6w+Ko8MT2DxBuKe8MvcUKe7B4NxJXLmTXVfOMU8Q/Abh6IqxpcoLJMcEW9OpHu+IWa0kaz4kVlvsEUaj+U33f9TT3Ubo6PdgM97JMjoAgG1EvEdE/wDAO0k4uUjH446WAdj2izQoIu5UvosoyQgPuwBvDTiK4nsrQEdC4F4OymBAvwKJS0C5PgD8BhCH+v+lpOMVwIOzdJy2ZYjgwAw6QPlMAH7LrssLV+5L9OI8PT4qgmxEcTxAej4HfhcPzs7CgwcF3ojirwdIr8zFZyR/yEi8StMxa7bytzHcO5yxeEtuHgS4TKdEdDpYw30bKz2I4uga6OWcDALq2wu4SqdigE/O3o9PXXXI4BnSL+ZBp/QdwM2dgG116grehr6tgX106gw+3Ds0D0Hw0Hdj4FA6dYUOpe9bgdvSqQ+4RPrd9TNWCdyVTl3BXfVdCvwpdOoMbqnvGeBKnRLutxnuucLq52z0nQOrSAfF92bc6/M95c27yuQjaxgSl66XCAYv6psjvYvk+LlehwI2Yevi3iaLL3tpk+dmxhAlYg0f2URp5vNFfZvQqBYoIFEPeL6Ip9iMRpM8NCS6mZd/xq1obgPKxhElfyaTdevNmj7Ah+4q0omO1oSAXY7+0FyguAND113l95ibV3SlreHobemduAC2Fe09RSF+4vn0Ij2hk2nC4fQ8mezi/eHoknefY9X36WTkOrkC3ox3pIS3ylkkfHWejt8VDxZE+FL/GxH8VXb/vb8eE4/JJOy76lm/Q8uVpXpFOEQ9OUn5Xdl91WYDTGAfbwkKzFdWASfKY+7AR+AQu7mIwMU15Rb+DGzjy9Oxny3cICeloyQCPLlIx29470JqeKFceiZIMT5PSwlcjMjM7/bSAdfBLp1L3wa7VMBNYJcGeA62JmzsvYZtYHtvYVvYXgPDvwBmBkKHryobcg1R1U2ony4tYFdm9Fpf/DXsTHalcIXU0Wwvgfn+qculZbB12ZVeAmtr2cL2VsNmxmImI9ogb9ZLC2cSHvPtxxa2txbmdMrVf/JJnutuYNleH1qcFDTTtTZ55l66dJ4wsbBsry2sFk+UfCB8eFtDSzGb1EsLc1PLFeFjW9jeHlrFRLxNTrCXFl6URPxCJfGqrN6qhbeGo7855i0Wv2xcMK8fGbWlRbGw6maYllo+SPgC86qeZ3mSobeieBsF/KHqONPypO3GzVQgp9Ga7Rzm+Lw6OuVD08d9rTytyarypOql4s5Zy5/Zb+njJTcG+Fh61cVC1QFg1m4ZenVNvHatE5svsWSdGe67+cUYXscDCniuTcGj043n45YDgTSqbQqv2g2ihIiOXEu3ymONxEPx3p03tVR1wvg0tvhY2PZZPj8A6Udzk8s6euf6tMqaUkJ1stpCNBmvG+iadiBVduKVdbr56rsJgM0YPi8A8YXZeS+Bfq5rSK/ttazava7+IKMKfk6n3A/SsPP+1uZSfaiVdap3re+yxnGl0wG+bNqQ3ghY77QKLJB+c+1ktXFXc6ytTuveYwWsJ+pS3y46DQ7ME7at7zKd8tfiGvCpyx1bb4KThc0dDP39DqHTVixcnNRX3zUe80w3u7ieAeZz3hYuLsJF36F12omFm5yq/P3OAN6wBtmid1dgeybuBYAQOu0cWL+wVN8Vq7H9nrq6d3CXLltImb7zcTc3s6A6/WQWLjvYJEAEKB/yn9SurkDaNEJytWjxuf8BZ0TW7UZPVGsAAAAASUVORK5CYII="/>
+                    </defs>
+                    </svg>                    
+                </div>
+                <div class="context">
+                    <div class="heading-1">
+                        Mobile Device Management
+                    </div>
+                    <div class="text-content">
+                        Mobile Device Management (MDM) enables you to manage iOS and Android mobile devices used by end users across your organization.
+                    </div>
+                    <div class="sub-heading">
+                        Capabilities:
+                        <div class="sub-content">
+                          <li>Report on mobile device activity and usage</li>
+                        </div>
+                        <div class="sub-content">
+                           <li> Remotely wipe data from compromised devices</li>
+                        </div>
+                        <div class="sub-content">
+                          <li>Enforce app policies across your company-owned devices</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="/assets/endpoint-mobile-device.svg" alt="" class="img-3">
+                </div>
+            </div>
+        </div>
+
+        <div class="modules part-2">
+            <div class="heading">
+                Modules for Protecting Email and Users
+            </div>
+            <div class="box box-1">
+                <div class="logo-in">
+                    <svg width="66" height="67" viewBox="0 0 66 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_20_1468)">
+                    <g clip-path="url(#clip1_20_1468)">
+                    <g clip-path="url(#clip2_20_1468)">
+                    <path d="M17.1801 55.9658L32.3901 64.6658C34.2701 65.7358 36.5901 65.7358 38.4701 64.6658L60.7701 51.9058C62.6501 50.8258 63.8101 48.8458 63.8101 46.6958V21.1858C63.8101 19.0358 62.6501 17.0458 60.7701 15.9758L38.4601 3.21576C36.5801 2.13576 34.2601 2.13576 32.3801 3.21576L10.0801 15.9658C9.62008 16.2358 9.20008 16.5558 8.83008 16.9158" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M1.19995 20.0356C1.19995 22.5156 2.53995 24.8156 4.70995 26.0556L30.4599 40.7856C32.6299 42.0256 35.31 42.0256 37.47 40.7856L59.3699 28.2656" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M49.3601 34.0552L59.3601 39.7752" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M1.19995 47.9951C1.19995 45.5151 2.53995 43.2151 4.70995 41.9751L18.6299 34.0151" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M62.02 50.9555H1.19995V16.9155H52.7299" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    </g>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_20_1468">
+                    <rect width="66" height="66" fill="white" transform="translate(0 0.72998)"/>
+                    </clipPath>
+                    <clipPath id="clip1_20_1468">
+                    <rect width="66" height="66" fill="white" transform="translate(0 0.72998)"/>
+                    </clipPath>
+                    <clipPath id="clip2_20_1468">
+                    <rect width="66" height="66" fill="white" transform="translate(0 0.72998)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>                                       
+                </div>
+                <div class="context">
+                    <div class="heading-1">
+                        Email Security
+                    </div>
+                    <div class="text-content">
+                        Email Security is the core email module in Visecure.
+                    </div>
+                    <div class="sub-heading">
+                        Capabilities:
+                        <div class="sub-content">
+                            <li>    Malware Scanning: Identify and quarantine emails with potential malware or ransomware attachments.</li>
+                        </div>
+                        <div class="sub-content">
+                           <li> Email Phishing Protection: Prevent threats from domain impersonation, spoofing, and other misleading phishing attempts.</li>
+                        </div>
+                        <div class="sub-content">
+                          <li> Allow/Block Lists: Create and maintain a list of individual senders or sending domains to allow or block from your business inboxes.</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="../assets/img-6.png" alt="" class="img">
+                </div>
+            </div>
+            <div class="box box-2">
+                <div class="logo-in">
+                    <svg width="60" height="67" viewBox="0 0 60 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_20_1499)">
+                    <g clip-path="url(#clip1_20_1499)">
+                    <g clip-path="url(#clip2_20_1499)">
+                    <path d="M43.81 58.5328C42.14 49.0328 36.87 41.4428 30.08 38.6028C32.28 36.1628 33.7 32.4028 33.7 28.1728C33.7 20.8228 29.43 14.8628 24.15 14.8628C18.8699 14.8628 14.6 20.8228 14.6 28.1728C14.6 32.4028 16.0199 36.1628 18.2199 38.6028C14.2099 40.2828 10.73 43.6128 8.19995 48.0228" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M56.7098 51.0031C55.1998 48.0031 52.9798 45.7231 50.3698 44.6431C51.6698 43.2131 52.5198 41.0231 52.5198 38.5331C52.5198 34.2231 50.0098 30.7231 46.9198 30.7231C43.8298 30.7231 41.3198 34.2231 41.3198 38.5331C41.3198 41.0231 42.1698 43.2131 43.4698 44.6431" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M49.84 55.0829L55.76 51.6929C57.64 50.6129 58.8 48.6329 58.8 46.4829V20.9729C58.8 18.8229 57.64 16.8329 55.76 15.7629L33.46 3.00287C31.58 1.92287 29.26 1.92287 27.38 3.00287L5.08004 15.7529C3.20004 16.8229 2.04004 18.8129 2.04004 20.9629V46.4729C2.04004 48.6229 3.20004 50.6129 5.08004 51.6829L27.38 64.4429C29.26 65.5129 31.58 65.5129 33.46 64.4429L43.81 58.5229" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    </g>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_20_1499">
+                    <rect width="60" height="66" fill="white" transform="translate(0 0.72998)"/>
+                    </clipPath>
+                    <clipPath id="clip1_20_1499">
+                    <rect width="60" height="66" fill="white" transform="translate(0 0.72998)"/>
+                    </clipPath>
+                    <clipPath id="clip2_20_1499">
+                    <rect width="60" height="66" fill="white" transform="translate(0 0.72998)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>                    
+                </div>
+                <div class="context">
+                    <div class="heading-1">
+                        User Data Governance
+                    </div>
+                    <div class="text-content">
+                        The User Data Governance module helps administrators establish a data handling strategy. Make sure data is only being accessed by by authorized users and maintain compliance to strict regulatory standards.
+                    </div>
+                    <div class="sub-heading">
+                        This module scans emails for unauthorized disclosure of sensitive sensitive data like:
+                        <div class="sub-content boo">
+                         <li> PII (personally identifiable information)</li>
+                        </div>
+                        <div class="sub-content boo">
+                           <li>PHI (protected health information)</li>
+                        </div>
+                        <div class="sub-content boo">
+                           <li>NPI (non-public information)</li>
+                        </div>
+                        <div class="sub-content boo">
+                           <li>Passwords</li>
+                        </div>
+                        <div class="sub-content boo">
+                           <li>Source Code</li>
+                        </div>
+                        <div class="sub-content boo">
+                           <li>Certificates</li>
+                        </div>
+                        <div class="sub-content boo">
+                           <li>Custom Keywords</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="../assets/img-7.png" alt="" class="img">
+                </div>
+            </div>
+            <div class="box box-2">
+                <div class="logo-in">
+                    <svg width="47" height="60" viewBox="0 0 47 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_20_1538)">
+                    <g clip-path="url(#clip1_20_1538)">
+                    <path d="M1.84497 30.3381V26.4181C1.84497 24.9781 3.01497 23.8081 4.45497 23.8081H42.3749C43.8149 23.8081 44.9849 24.9781 44.9849 26.4181V45.6081" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M44.9949 51.4177V55.1177C44.9949 56.5577 43.8249 57.7277 42.3849 57.7277H4.45497C3.01497 57.7277 1.84497 56.5577 1.84497 55.1177V36.6177" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8.98486 23.8082V16.8682C8.98486 8.89822 15.4449 2.42822 23.4249 2.42822C31.3949 2.42822 37.8649 8.88822 37.8649 16.8682V23.8082" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M30.8349 47.2884H21.6549L16.1249 51.9684L16.1449 47.2884H15.9949C14.0749 47.2884 12.5149 45.7284 12.5149 43.8084V35.6084C12.5149 33.6884 14.0749 32.1284 15.9949 32.1284H30.8249C32.7449 32.1284 34.3049 33.6884 34.3049 35.6084V43.8084C34.3049 45.7284 32.7449 47.2884 30.8249 47.2884H30.8349Z" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_20_1538">
+                    <rect width="47" height="59" fill="white" transform="translate(0 0.72998)"/>
+                    </clipPath>
+                    <clipPath id="clip1_20_1538">
+                    <rect width="47" height="59" fill="white" transform="translate(0 0.72998)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>                    
+                </div>
+                <div class="context">
+                    <div class="heading-1">
+                        Secure Messages
+                    </div>
+                    <div class="text-content">
+                        The Secure Messages add-on lets you encrypt outbound emails. With this module, you can use a private key to ensure only the intended recipients to access emails.
+                    </div>
+                    <div class="sub-heading">
+                        Works with:
+                        <div class="sub-content boo">
+                          <li> Microsoft O365</li>
+                        </div>
+                        <div class="sub-content boo">
+                           <li>Google Workspaces</li>
+                        </div>
+                        <div class="sub-content boo">
+                          <li>Desktop email</li>
+                        </div>
+                        <div class="sub-content boo">
+                           <li>Mobile email apps</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="../assets/img-8.png" alt="" class="img">
+                </div>
+            </div>
+            <div class="box box-2">
+                <div class="logo-in">
+                    <svg width="57" height="45" viewBox="0 0 57 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_20_1571)">
+                    <g clip-path="url(#clip1_20_1571)">
+                    <path d="M1.32495 40.4712C1.32495 38.4312 2.42495 36.5412 4.20495 35.5212L11.785 31.1812" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M50.945 23.2214L31.165 34.5314C29.385 35.5514 27.175 35.5514 25.395 34.5314L4.20495 22.4114C2.42495 21.3914 1.32495 19.5014 1.32495 17.4614" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M55.235 40.4712C55.235 38.4312 54.135 36.5412 52.355 35.5212L40.905 28.9712" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M40.0849 14.9009H52.9049C54.1949 14.9009 55.235 15.9409 55.235 17.2309V40.5709C55.235 41.8609 54.1949 42.9009 52.9049 42.9009H3.65495C2.36495 42.9009 1.32495 41.8609 1.32495 40.5709V17.2309C1.32495 15.9409 2.36495 14.9009 3.65495 14.9009H18.055" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M34.0551 19.1713C32.6851 21.2813 30.8451 22.6914 28.7151 23.6814C22.7151 20.3714 20.0851 14.7713 20.7651 6.92139" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M24.345 4.37143L28.325 2.96143L35.985 5.39143C36.365 5.39143 36.675 6.91143 36.675 6.91143C36.775 10.3214 36.445 13.1014 35.775 15.3614" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M29.015 2.96143L21.355 5.39143C20.975 5.39143 20.665 6.91143 20.665 6.91143C20.565 10.3214 20.895 13.1014 21.565 15.3614" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_20_1571">
+                    <rect width="57" height="44" fill="white" transform="translate(0 0.890137)"/>
+                    </clipPath>
+                    <clipPath id="clip1_20_1571">
+                    <rect width="57" height="44" fill="white" transform="translate(0 0.890137)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>                    
+                </div>
+                <div class="context">
+                    <div class="heading-1">
+                        Inbound Gateway
+                    </div>
+                    <div class="text-content">
+                        The Inbound Gateway add-on is a proxy that provides real-time detection and protection for incoming emails. It lets you intercept inbound emails and inspect them, allowing only threat-free or trusted emails to reach recipients.
+                    </div>
+                    <div class="sub-heading">
+                        You can choose between the following for suspicious emails:
+                        <div class="sub-content boo">
+                           <li><span>Warning Only:</span> Emails are not blocked but are marked with explanatory warnings for the recipients</li>
+                        </div>
+                        <div class="sub-content boo">
+                          <li><span>Block:</span> Emails are blocked and can only be released from quarantine by workspace administrators</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="../assets/img-9.png" alt="" class="img">
+                </div>
+            </div>
+        </div>
+        <div class="modules part-1"> 
+            <div class="heading">
+                Modules for Protecting Network and Cloud Environments
+            </div>
+            <div class="box box-1">
+                <div class="logo-in">
+                    <svg width="60" height="68" viewBox="0 0 60 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_20_1607)">
+                    <g clip-path="url(#clip1_20_1607)">
+                    <path d="M30.28 19.0229C26.7 20.0929 23.86 23.0329 22.76 26.7829L22.82 26.8029C22.38 26.7229 21.93 26.6829 21.47 26.6829C17.36 26.6829 13.96 29.843 13.29 34.003C9.81002 34.103 7.02002 37.1229 7.02002 40.8329C7.02002 44.5429 9.90002 47.6729 13.46 47.6729H30.28" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M34.6499 19.0229H52.1099V43.6729C52.1099 45.8929 50.6699 47.683 48.8999 47.683H34.6499" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M30.28 2.50342V65.4735" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M52.1099 38.1333H34.6499" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M52.1099 28.5737H34.6499" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M46.9099 34.853C47.7384 34.853 48.4099 34.1814 48.4099 33.353C48.4099 32.5245 47.7384 31.853 46.9099 31.853C46.0815 31.853 45.4099 32.5245 45.4099 33.353C45.4099 34.1814 46.0815 34.853 46.9099 34.853Z" fill="#262260"/>
+                    <path d="M46.9099 44.4038C47.7384 44.4038 48.4099 43.7323 48.4099 42.9038C48.4099 42.0754 47.7384 41.4038 46.9099 41.4038C46.0815 41.4038 45.4099 42.0754 45.4099 42.9038C45.4099 43.7323 46.0815 44.4038 46.9099 44.4038Z" fill="#262260"/>
+                    <path d="M46.9099 25.3032C47.7384 25.3032 48.4099 24.6316 48.4099 23.8032C48.4099 22.9747 47.7384 22.3032 46.9099 22.3032C46.0815 22.3032 45.4099 22.9747 45.4099 23.8032C45.4099 24.6316 46.0815 25.3032 46.9099 25.3032Z" fill="#262260"/>
+                    <path d="M30.2002 65.4732C31.2802 65.4832 32.3602 65.2232 33.3202 64.6732L55.6202 51.9132C57.5002 50.8332 58.6602 48.8532 58.6602 46.7032V21.1932C58.6602 19.0432 57.5002 17.0532 55.6202 15.9832L35.0802 4.22314" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M30.2799 6.90357V2.41357C29.2299 2.41357 28.1799 2.68357 27.2399 3.22357L4.9399 15.9736C3.0599 17.0436 1.8999 19.0336 1.8999 21.1836V46.6936C1.8999 48.8436 3.0599 50.8336 4.9399 51.9036L25.3999 63.6036" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_20_1607">
+                    <rect width="60" height="67" fill="white" transform="translate(0 0.359863)"/>
+                    </clipPath>
+                    <clipPath id="clip1_20_1607">
+                    <rect width="60" height="67" fill="white" transform="translate(0 0.359863)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>                    
+                </div>
+                <div class="context">
+                    <div class="heading-1">
+                        Network
+                    </div>
+                    <div class="text-content">
+                        Network Security is one of the core SASE modules in Visecure Capabilities in this module include:
+                    </div>
+                    <div class="sub-heading">
+                        You can choose between the following for suspicious emails:
+                        <div class="sub-content boo">
+                           <li><span>Remote Office Cluster:</span> 
+                             Protect your corporate network against hijacking, intrusion, adware, malware, and phishing attacks.</li>
+                        </div>
+                        <div class="sub-content boo">
+                          <li><span>Cloud VPN: </span> 
+                            Encrypt all network data for remote users without hurting performance or increasing management overhead.</li>
+                        </div>
+                        <div class="sub-content boo">
+                           <li><span>Cloud Firewall: </span> 
+                            Route all traffic through a virtual, cloud firewall, stripping out malicious before they can attack your devices.</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="../assets/img-10.png" alt="" class="img">
+                </div>
+            </div>
+            <div class="box box-1">
+                <div class="logo-in">
+                    <svg width="70" height="68" viewBox="0 0 70 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_20_1642)">
+                    <g clip-path="url(#clip1_20_1642)">
+                    <g clip-path="url(#clip2_20_1642)">
+                    <path d="M68.425 30.2995C65.775 26.7695 61.545 24.4795 56.785 24.4795C51.545 24.4795 46.955 27.2495 44.395 31.3995" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M55.745 20.3494C52.755 15.8594 47.655 12.8994 41.865 12.8994C34.385 12.8994 28.055 17.8294 25.945 24.6194C25.305 24.5194 24.665 24.4494 23.995 24.4494C17.785 24.4494 12.645 28.9594 11.625 34.8694C6.36501 35.0094 2.13501 39.3094 2.13501 44.5994C2.13501 49.8894 6.49501 54.3394 11.875 54.3394H57.445C61.055 54.3394 64.375 53.0594 66.955 50.9294" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M18.375 54.35L37.005 65.01C38.885 66.08 41.205 66.08 43.085 65.01L65.385 52.25C67.265 51.17 68.425 49.19 68.425 47.04V21.53C68.425 19.38 67.265 17.39 65.385 16.32L43.085 3.56C41.205 2.48 38.885 2.48 37.005 3.56L14.705 16.31C12.825 17.38 11.665 19.37 11.665 21.52V25.29" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    </g>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_20_1642">
+                    <rect width="70" height="67" fill="white" transform="translate(0 0.879883)"/>
+                    </clipPath>
+                    <clipPath id="clip1_20_1642">
+                    <rect width="70" height="67" fill="white" transform="translate(0 0.879883)"/>
+                    </clipPath>
+                    <clipPath id="clip2_20_1642">
+                    <rect width="70" height="67" fill="white" transform="translate(0 0.879883)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>                        
+                </div>
+                <div class="context">
+                    <div class="heading-1">
+                        Cloud Security
+                    </div>
+                    <div class="text-content">
+                        Cloud Security is one of the core SASE modules in Visecure
+                        <br><br>
+                        With it, you can stop abnormal admin activity, access violations, ID compromise, malware, and mass data changes in the following cloud apps: Microsoft Office 365, Google Workspace, Slack, Dropbox, Box, and Salesforce.
+                    </div>
+                    <div class="sub-heading">
+                        Blocks:
+                        <div class="sub-content boo">
+                          <li>Abnormal admin activity</li>
+                        </div>
+                        <div class="sub-content boo">
+                           <li>Malware in cloud drive</li>
+                        </div>
+                        <div class="sub-content boo">
+                         <li>Suspected identity compromise</li>
+                        </div>
+                        <div class="sub-content boo">
+                           <li> Access permissions violation</li>
+                        </div>
+                        <div class="sub-content boo">
+                           <li> Suspected bot attacks</li>
+                        </div>
+                        <div class="sub-content boo">
+                           <li> Mass download</li>
+                        </div>
+                        <div class="sub-content boo">
+                           <li> Mass deletion</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="../assets/img-01.png" alt="" class="img">
+                </div>
+            </div>
+            <div class="box box-1">
+                <div class="logo-in">
+                    <svg width="70" height="68" viewBox="0 0 70 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_20_1681)">
+                        <g clip-path="url(#clip1_20_1681)">
+                        <path d="M68.425 30.2995C65.775 26.7695 61.545 24.4795 56.785 24.4795C51.545 24.4795 46.955 27.2495 44.395 31.3995" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M55.745 20.3494C52.755 15.8594 47.655 12.8994 41.865 12.8994C34.385 12.8994 28.055 17.8294 25.945 24.6194C25.305 24.5194 24.665 24.4494 23.995 24.4494C17.785 24.4494 12.645 28.9594 11.625 34.8694C6.36501 35.0094 2.13501 39.3094 2.13501 44.5994C2.13501 49.8894 6.49501 54.3394 11.875 54.3394H57.445C61.055 54.3394 64.375 53.0594 66.955 50.9294" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M18.375 54.35L37.005 65.01C38.885 66.08 41.205 66.08 43.085 65.01L65.385 52.25C67.265 51.17 68.425 49.19 68.425 47.04V21.53C68.425 19.38 67.265 17.39 65.385 16.32L43.085 3.56C41.205 2.48 38.885 2.48 37.005 3.56L14.705 16.31C12.825 17.38 11.665 19.37 11.665 21.52V25.29" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_20_1681">
+                        <rect width="70" height="67" fill="white" transform="translate(0 0.879883)"/>
+                        </clipPath>
+                        <clipPath id="clip1_20_1681">
+                        <rect width="70" height="67" fill="white" transform="translate(0 0.879883)"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                        
+                </div>
+                <div class="context">
+                    <div class="heading-1">
+                        Secure Web Gateway
+                    </div>
+                    <div class="text-content">
+                        The Secure Web Gateway (SWG) add-on lets you apply DNS filtering to restrict network traffic. DNS filtering can protect your business from malware, viruses, and other potential threats.
+                    </div>
+                    <div class="sub-heading">
+                        Capabilities:
+                        <div class="sub-content boo">
+                          <li><span>DNS Filtering:</span> Block access to undesired external resources from your virtual office.</li>
+                        </div>
+                        <div class="sub-content boo">
+                           <li><span>Allow/Block Lists: </span> Restrict access to specific URLs, groups of URLs, or content categories.</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="../assets/img-02.png" alt="" class="img">
+                </div>
+            </div>
+
+            <div class="box box-1">
+                <div class="logo-in">
+                    <svg width="41" height="53" viewBox="0 0 41 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_20_1708)">
+                        <g clip-path="url(#clip1_20_1708)">
+                        <path d="M1.29492 26.8389V23.3989C1.29492 22.1289 2.32492 21.1089 3.58492 21.1089H36.8549C38.1249 21.1089 39.1449 22.1389 39.1449 23.3989V40.2389" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M39.1549 45.3294V48.5694C39.1549 49.8394 38.1249 50.8594 36.8649 50.8594H3.58492C2.31492 50.8594 1.29492 49.8294 1.29492 48.5694V32.3394" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M7.55493 21.1092V15.0192C7.55493 8.01912 13.2249 2.34912 20.2249 2.34912C27.2249 2.34912 32.8949 8.01912 32.8949 15.0192V21.1092" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M20.2249 36.3194C22.5555 36.3194 24.4449 34.4301 24.4449 32.0994C24.4449 29.7688 22.5555 27.8794 20.2249 27.8794C17.8943 27.8794 16.0049 29.7688 16.0049 32.0994C16.0049 34.4301 17.8943 36.3194 20.2249 36.3194Z" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M20.2251 36.6685V43.4885" stroke="#262260" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_20_1708">
+                        <rect width="41" height="52" fill="white" transform="translate(0 0.359863)"/>
+                        </clipPath>
+                        <clipPath id="clip1_20_1708">
+                        <rect width="41" height="52" fill="white" transform="translate(0 0.359863)"/>
+                        </clipPath>
+                        </defs>
+                    </svg>  
+                </div>
+                <div class="context">
+                    <div class="heading-1">
+                        Zero Trust Network Access
+                    </div>
+                    <div class="text-content">
+                       <li>The Zero Trust Network Access module (ZTNA) lets you apply strict security protocols for remote workers without hindering end-user productivity.</li>
+                        <li>To guard and protect remote work, you can verify each user, device, and network flow before granting access to corporate resources.</li>
+                    </div>
+                    <div class="sub-content">
+                        <div class="sub-content boo"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modules Ends -->
+    <!-- Talk to Sales Form -->
+    <h2 style="text-align: center; color: #091C45; margin-top: 2%; padding: 10px;">Talk to sales</h2>
+    <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+        <input type="hidden" name="access_key" value="bc0644a7-98c2-4e83-bc37-15f82b879bc5">
+        <div class="formBox">
+            <div class="row50">
+                <div class="inputBox C_field">
+                    <span>First Name</span>
+                    <input name="First_Name" class="C_item" type="text" required>
+                    <div class="error-txt">First Name can't be blank</div>
+                </div>
+                <div class="inputBox C_field">
+                    <span>Last Name</span>
+                    <input name="Last_Name" class="C_item" type="text" required>
+                    <div class="error-txt">Last Name can't be blank</div>
+                </div>
+            </div>
+    
+            <div class="row50">
+                <div class="inputBox C_field">
+                    <span>Email</span>
+                    <input name="Email" class="C_item" type="email" required>
+                    <div class="error-txt">Email can't be blank</div>
+                </div>
+                <div class="inputBox C_field">
+                    <span>Mobile</span>
+                    <input name="Mobile" class="C_item" type="tel" required>
+                    <div class="error-txt">Mobile can't be blank</div>
+                </div>
+            </div>
+    
+            <div class="row100">
+                <div class="inputBox C_field">
+                    <span>Message</span>
+                    <textarea name="Message" class="C_item" placeholder="Write your message here..." required></textarea>
+                    <div class="error-txt">Message can't be blank</div>
+                </div>
+            </div>
+    
+            <div class="row100">
+                <div class="inputBox">
+                    <button type="submit" class="button">SEND</button>
+                </div>
+            </div>
+        </div>
+    </form>
+        <!-- End of Talk to sales-->
+    <div class="footer">
+        <div class="logo-text">
+            <div>
+                <img src="/assets/image.png" alt="image" class="image-05">
+            </div>
+            <div class="text-logo">
+                Visecure: All-In-One Cybersecurity Solution Visecure is a leading cybersecurity<br>
+                company specializing in providing comprehensive protection<br>
+                for business of all sizes.
+            </div>
+        </div>
+        <div class="contact-us">
+            <div class="texts">
+                <ul>
+                    <li class="i">Contact Us</li>
+                    <li><i class="fas fa-phone"></i>+91 91591 06082</li>
+                    <li><a href="mailto:contact@visecure.in" style="color: whitesmoke; text-decoration: none;" class="email-link"><i class="fas fa-envelope" style="display: inline;"></i>contact@visecure.in</a>
+                    </li>                    
+                    <li><a style="text-decoration: none; color: whitesmoke;" href="https://www.visecure.in"><i class="fas fa-globe"></i>www.visecure.in</li>
+                    <li><a style="text-decoration: none; color: whitesmoke;" href="https://www.linkedin.com/company/visecure-in/"><i class="fab fa-linkedin"></i>Visecure</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="company">
+            <div class="texts">
+                <ul> 
+                    <li class="i">Company</li>
+                    <li onclick="location.href='/index.html'"><i class="fas fa-info-circle"></i>Home</li>
+                    <li onclick="location.href='/pages/platform-overview.html'"><i class="fas fa-cogs" ></i>Solutions</li>
+                    <li onclick="location.href='/pages/it-oraganisation.html'"><i class="fas fa-building" onclick="location.href='/pages/it-oraganisation.html'"></i>Industries</li>
+                    <li onclick="location.href='/pages/services.html'"><i class="fas fa-cogs"></i>Services</li>
+                    <li onclick="location.href='/pages/contact.html'"><i class="fas fa-envelope" style="display: inline;"></i> Contact Us</li>
+                </ul>
+            </div>
+        </div>
+        <div class="subscribe">
+            <div class="book-free">
+                <div class="free">
+                    Book a Free Trial Or Subscribe Here
+                </div>
+                <form action="https://api.web3forms.com/submit" method="POST" id="subscribeForm">
+                    <input type="hidden" name="access_key" value="bc0644a7-98c2-4e83-bc37-15f82b879bc5">
+                    <div class="input">
+                        <div>
+                            <input class="input-1" type="email" style="margin-top: 2.5%;" name="email" placeholder="Subscribe" required>
+                        </div>
+                        <div>
+                            <button class="send" type="submit">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>  
+    </div>
+    <section class="footer">
+        <p style="text-align: center; margin-top: 1%; ">&copy; 2024 Visecure. All rights reserved.</p>
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script>
+    document.getElementById('open-popup').addEventListener('click', function () {
+        document.getElementById('popup').style.display = 'flex'; // Show the popup
+        });
+
+        document.querySelector('.close-popup').addEventListener('click', function () {
+        document.getElementById('popup').style.display = 'none'; // Hide the popup
+        });
+
+        // JavaScript to handle hover for dropdowns
+        document.querySelectorAll('.navbar-nav .dropdown').forEach(function (dropdown) {
+        dropdown.addEventListener('mouseenter', function () {
+            const dropdownMenu = this.querySelector('.dropdown-menu');
+            dropdownMenu.classList.add('show');
+        });
+
+            dropdown.addEventListener('mouseleave', function () {
+            const dropdownMenu = this.querySelector('.dropdown-menu');
+            dropdownMenu.classList.remove('show');
+        });
+        });
+</script>
+</html>

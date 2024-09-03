@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Storage</title>
+    <link rel="stylesheet" href="/style/cloud-storage.css">
+    <link rel="stylesheet" href="/style/navbar-style.css">
+    <link rel="stylesheet" href="/style/footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="/assets/website-logo.png">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="/assets/Logo-Dark.png" class="logo-in" alt="visecure"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Solutions
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li>
+                      <table class="table">
+                              <thead>
+                                  <tr class="tr">
+                                      <th class="th">Visecure Platform</th>
+                                      <th>Visecure Vault</th>
+                                  </tr class="tr">
+                              </thead>
+                              <tbody>
+                                  <tr class="tr">
+                                      <td class="td"><a class="dropdown-item" href="/pages/platform-overview.html">Visecure platform Overview</a></td>
+                                      <td class="td"><a class="dropdown-item" href="/pages/cloud-storage.html">Decentralized Cloud Storage</a></td>
+                                  </tr>
+                                  <tr class="tr">
+                                      <td class="td"><a class="dropdown-item" href="/pages/security-modules.html">Security Modules</a></td>
+                                      <td class="td"></td>
+                                  </tr>
+                                  <tr class="tr">
+                                      <td class="td"><a class="dropdown-item" href="/pages/Managed-Services.html">Managed Services</a></td>
+                                      <td class="td"></td>
+                                  </tr>
+                                  <tr class="tr">
+                                      <td class="td"><a class="dropdown-item" href="/pages/price.html">Pricing</a></td>
+                                      <td class="td"></td>
+                                  </tr>
+                                  <tr class="tr">
+                                      <td class="td" ><a class="dropdown-item" href="/pages/comp.html">Compliance Management</a></td>
+                                      <td class="td"></td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                          <div class="mobile-view">
+                              <div><strong>Visecure Platform</strong></div>
+                              <div><a href="/pages/platform-overview.html" class="dropdown-item">Visecure platform Overview</a></div>
+                              <div><a href="/pages/security-modules.html" class="dropdown-item">Security Modules</a></div>
+                              <div><a href="/pages/Managed-Services.html" class="dropdown-item">Managed Services</a></div>
+                              <div><a href="/pages/price.html" class="dropdown-item">Pricing</a></div>
+                              <div><a href="/pages/comp.html" class="dropdown-item">Compliance Management</a></div>
+                              <hr>
+                              <div><strong>Visecure Vault</strong></div>
+                              <div><a href="/pages/cloud-storage.html" class="dropdown-item">Decentralized Cloud Storage</a></div>
+                          </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li>
+                    <div class="table-responsive">
+                      <table class="table mb-0">
+                        <thead>
+                          <tr>
+                            <th>Cyber security Solutions</th>
+                            <th>Digital Services</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td><a class="dropdown-item" href="/pages/product.html">VAPT</a></td>
+                            <td><a class="dropdown-item" href="/pages/services.htmt">Web Development</a></td>
+                          </tr>
+                          <tr>
+                            <td><a class="dropdown-item" href="/pages/product.html">Virtual Cyber Security</a></td>
+                            <td><a class="dropdown-item" href="/pages/services.html">Software Development</a></td>
+                          </tr>
+                          <tr>
+                            <td><a class="dropdown-item" href="/pages/product.html">Managed Security Services</a></td>
+                            <td><a class="dropdown-item" href="/pages/services.html">Web Designing</a></td>
+                          </tr>
+                          <tr>
+                            <td><a class="dropdown-item" href="/pages/product.html">SOC as a Services</a></td>
+                            <td><a class="dropdown-item" href="/pages/services.html">E-commerce Development</a></td>
+                          </tr>
+                          <tr>
+                            <td><a class="dropdown-item" href="/pages/product.html">Compliance Management</a></td>
+                            <td><a class="dropdown-item" href="/pages/services.html">Hire Developers</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="mobile-view">
+                        <div><strong>Cyber security Solutions</strong></div>
+                        <div><a href="pages/product.html" class="dropdown-item">VAPT</a></div>
+                        <div><a href="pages/product.html" class="dropdown-item">Virtual Cyber Security</a></div>
+                        <div><a href="pages/product.html" class="dropdown-item">Managed Security Services</a></div>
+                        <div><a href="pages/product.html" class="dropdown-item">SOC as a Services</a></div>
+                        <div><a href="pages/product.html" class="dropdown-item">Compliance Management</a></div>
+                        <hr>
+                        <div><strong>Digital Services</strong></div>
+                        <div><a href="pages/services.html" class="dropdown-item">Web Development</a></div>
+                        <div><a href="pages/services.html" class="dropdown-item">Software Development</a></div>
+                        <div><a href="pages/services.html" class="dropdown-item">Web Designing</a></div>
+                        <div><a href="pages/services.html" class="dropdown-item">E-commerce Development</a></div>
+                        <div><a href="pages/services.html" class="dropdown-item">Hire Developers</a></div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+          </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/pages/partner.html">Partners</a>
+                </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Industries
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/pages/software.html">Software Technology</a></li>
+                    <li><a class="dropdown-item" href="/pages/it-oraganisation.html">Learn IT</a></li>
+                    <li><a class="dropdown-item" href="/pages/school.html">Education Institution</a></li>
+                    <li><a class="dropdown-item" href="/pages/hospitals.html">Hospitals</a></li>
+                    <li><a class="dropdown-item" href="/pages/finance.html">Finance</a></li>
+                    <li><a class="dropdown-item" href="/pages/Industry.html">Manufacturers</a></li>
+                    <li><a class="dropdown-item" href="/pages/Goverment.html">Government</a></li>
+                    <li><a class="dropdown-item" href="/pages/Automative.html">Automobile</a></li>
+                    <li><a class="dropdown-item" href="/pages/logistic.html">Trucking</a></li>
+                  </ul>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <!-- Form with Buttons -->
+            <form class="d" style="display: flex; gap:20px" role="search">
+                <button class="btn-20" type="button" id="open-popup">Book a Demo</button>
+                <button class="btn-30" type="submit">Get Started</button>
+            </form>
+            
+                                    <!-- Popup Structure -->
+                                    <div class="popup-overlay" id="popup">
+                                        <div class="popup-content">
+                                            <button class="close-popup">&times;</button> <!-- Close button styled as * -->
+                                            <div class="container">
+                                                <div class="left-column">
+                                                    <h1>Book a Free Demo</h1>
+                                                    <p><b>Try Visecure for Free for the next 14 days</b></p>
+                                                    <form action="https://api.web3forms.com/submit" method="POST" id="popupForm">
+                                                        <input type="hidden" name="access_key" value="bc0644a7-98c2-4e83-bc37-15f82b879bc5">
+                                                        <label for="email">Business Email</label>
+                                                        <input type="email" id="email" name="email" placeholder="Enter your business email" required>
+                                                        <button type="submit">Continue</button>
+                                                    </form>
+                                                </div>
+                                                <div class="right-column">
+                                                    <h2>Visecure: Simplifying Your Path to Cybersecurity Excellence</h2>
+                                                    <ul>
+                                                        <li>Automatically neutralize over 95% of email threats before they reach your inbox.</li>
+                                                        <li>Simplify cloud app security management with an all-in-one dashboard.</li>
+                                                        <li>Secure devices across the digital landscape with comprehensive protection.</li>
+                                                        <li>Safeguard against data breaches with an effortlessly effective solution.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+            
+            <div class="login-image" onclick="location.href='https://visecure.coro.net/login'" style="display: flex; flex-direction: column; cursor: pointer; padding-left: 20px; padding-top: 7px;">
+                <img src="/assets/login.png" alt="image" width="34px" height="auto">
+                <div>login</div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- Mobile Navbar End  -->
+    <!--File Storage-->
+    <div class="heading">
+        <div class="content-1" id="i"><span style="font-size: 18px;">Visecure Vault</span><br>File storage and sharing for remote<br>
+            teams that work together on<br>
+            Web3
+        </div>
+        <div class="content-2">
+            Visecure is a online file manager on decentralized cloud storage and IPFS that allows you storage, share,<br>
+            collect files privately and team collaboration without subscription.
+        </div>
+        <div class="button">
+            <button class="get-start" onclick="location.href='/pages/book.html'">Get Started</button>
+        </div>
+        <div class="image">
+            <img src="/assets/image-9.png" alt="image" class="image-10">
+        </div>
+    </div>
+    <!--End of File Storage-->
+
+    <!--Section-2 -->
+    <div class="Section-1">
+        <div class="header-1">Lightning fast. Better privacy. Fairer cost.</div>
+        <div class="text-content-1">
+            <div class="content-3">You can choose continue to use centralized cloud storage but we have<br>
+                some better reasons for you to</div>
+            <div class="content-4">start moving to decentralized storage<br>
+                because it is simply the future of the internet.</div>
+
+            <!--Container-->
+            <div class="Container">
+                <div class="box-1">
+                    <div class="img">
+                        <img src="/assets/image-10.png" alt="image-2" class="image-2">
+                    </div>
+                    <div class="text-content-2">
+                        <div class="header-2">Lightweight</div>
+                        <div class="content-5">Designed to be lightweight to help<br> you enhance team collaboration by <br>organizing and sharing files in your<br> projects without stress.</div>
+                    </div>
+                </div>
+                <div class="box-1">
+                    <div class="img">
+                        <img src="/assets/image-11.png" alt="image-2" class="image-2">
+                    </div>
+                    <div class="text-content-2">
+                        <div class="header-2">Decentralization</div>
+                        <div class="content-5">Store data securely on over 13k<br> nodes worldwide instead of just a <br>few vulnerable data centers with <br>privacy and lightning speed by<br> design.</div>
+                    </div>
+                </div>
+                <div class="box-1">
+                    <div class="img">
+                        <img src="/assets/image-12.png" alt="image-2" class="image-2">
+                    </div>
+                    <div class="text-content-2">
+                        <div class="header-2">No subscription</div>
+                        <div class="content-5">With Pay-as-you-go pricing, now<br> you only pay for the resource<br> you use without being charged a<br> flat monthly fee even if you don't<br> use it up.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of Section-2 -->
+
+    <!--Productivity-->
+    <div class="Section-2">
+        <div class="header-3">
+            Lightweight design, ready to use for<br>
+            team productivity.
+        </div>
+        <div class="Container-1">
+            <div class="box-2">
+                <div class="heading-1">File Sharing</div>
+                <div class="content-6">Securely share files within or outside your organization,<br>
+                     and control access, track edits, and analyze the shared content stats.
+                </div>
+                <div class="img">
+                    <img src="/assets/image-13.png" alt="image" class="image-3">
+                </div>
+            </div>
+            <div class="box-3">
+                <div class="heading-1">Collect Files</div>
+                <div class="content-6">You can collect and receive files in a secure environment, <br>even if the other person doesn't have a Deupload account.
+                </div>
+                <div class="img">
+                    <img src="/assets/image-14.png" alt="image" class="image-3">
+                </div>
+            </div>
+        </div>
+        <div class="Container-2">
+            <div class="box-4">
+                <div class="text-content-3">
+                    <div class="heading-2">Team collaboration in one simple place with privacy come first.</div>
+                    <div class="content-7">Securely share and work together with Visecure's simple file storage <br> and sharing, easy user management, unlimited file size, password<br> protected links and more.</div>
+                    <div class="button">
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="/assets/image-15.png" alt="image" class="image-4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of Productivity-->
+
+    <!--Point of Visecure-->
+    <div class="Section-3">
+        <div class="Container-3">
+            <div class="text-content-4">
+                <div class="heading-3">Decentralized storage<br>
+                    built for better<br> privacy.</div>
+                <div class="content-8">
+                    Store data securely on over 13k nodes worldwide instead of just a few vulnerable<br> data centers with privacy. Every file is encrypted, split into pieces, and stored on a<br>global network of nodes, making data breaches and downtime a thing of the past.
+                </div>
+            </div>
+        </div>
+        <div class="Container-4">
+            <div class="box-5">
+                <div class="images">
+                    <img src="/assets/image-16.png" alt="image" class="image-5">
+                </div>
+                <div class="text-content-5">
+                    <div class="heading-4">Private by design</div>
+                    <div class="content-9">
+                            We believe data privacy is a human right, which is<br>why Visecure is built on a decentralized architecture<br>that makes data breaches<br>
+                             a thing of the past.
+                    </div>
+                </div>
+            </div>
+            <div class="box-5">
+                <div class="images">
+                    <img src="/assets/image-17.png" alt="image" class="image-5">
+                </div>
+                <div class="text-content-5">
+                    <div class="heading-4">Distributed network</div>
+                    <div class="content-9">
+                        An object is never in one place. Data is split into 80 pieces,<br> and distributed to uncorrelated Nodes. When you call for the<br>
+                        data, it’s automatically reconstituted in an instant.
+                    </div>
+                </div>
+            </div>
+            <div class="box-5">
+                <div class="images">
+                    <img src="/assets/image-18.png" alt="image" class="image-5">
+                </div>
+                <div class="text-content-5">
+                    <div class="heading-4">Worldwide availability</div>
+                    <div class="content-9">
+                        Data is stored on Nodes that are selected by reputation<br>
+                        and local latency.
+                        The fastest Nodes from this set are<br> chosen to store pieces,
+                        ensuring quick access to <br>your data.
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--End of Visecure-->
+
+    <!--Start of how its work-->
+    <div class="how-it">
+        <div class="header-5">How it works?</div>
+        <div class="text-content-7">Never pay for unused storage again. Never pay expensive seats for team member again.<br>
+            Only pay for what you use. Don't get stalled by contracts,<br>
+            capacity planning, or price modeling.
+        </div>
+            <div class="Container-7">
+                <div class="works">
+                    <div class="container-1">
+                        <div class="images">
+                            <img src="/assets/image-19.png" alt="image" class="image-20">
+                        </div>
+                        <div class="header-6">Create an account</div>
+                        <div class="text-content-8">Create an Visecure account and start uploading<br> your files to Decentralized Storage.</div>
+                    </div>
+                </div>
+                <div class="works">
+                    <div class="container-1">
+                        <div class="images"></div>
+                        <img src="/assets/image-20.png" alt="image" class="image-20">
+                        <div class="header-6">Create an account</div>
+                        <div class="text-content-8">Create an Visecure account and start uploading<br> your files to Decentralized Storage.</div>
+                    </div>
+                </div>
+                <div class="works">
+                    <div class="container-1">
+                        <img src="/assets/image-21.png" alt="image" class="image-20">
+                        <div class="header-6">Create an account</div>
+                        <div class="text-content-8">Create an Visecure account and start uploading<br> your files to Decentralized Storage.</div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!--End of how its work-->
+    <!--ready to started-->
+    <div class="Section-6">
+        <div class="text-content-9">
+            <div class="header-7">Ready to get started?</div>
+            <div class="content-14">File storage and sharing on decentralized storage that suits any business size.</div>
+        </div>
+        <div class="an">
+            <button class="create-an" onclick="location.href='/pages/book.html'">Book Now</button>
+        </div>
+    </div>
+
+    <div class="Section-7">
+        <div class="Container-8">
+            <div class="box-10">
+                <img src="/assets/image-24.png" class="image-21">
+                <div class="heading-10">Are you individual?</div>
+                <div class="content-15">Syncing, backing up, and sharing your photos,<br>
+                    videos and documents in total privacy couldn't be easier.
+                </div>
+            </div>
+        </div>
+        <div class="Container-90">
+            <div class="box-11">
+                <div class="text-content-100">
+                    <img src="/assets/image-23.png" class="image-21">
+                    <div class="heading-11">Are you business?</div>
+                    <div class="content-16">Work efficiently with teammates and clients,<br>stay in sync on projects,
+                        and keep company <br> datasafe all in one
+                        place on decentralized network.</div>
+                </div>
+                <div class="img-1">
+                    <img src="/assets/image-22.png" alt="image" class="image-22">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of ready to started-->
+
+    <!-- Talk to Sales Form -->
+    <h2 style="text-align: center; color: #091C45; margin-top: 2%; padding: 10px;">Talk to sales</h2>
+    <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+        <input type="hidden" name="access_key" value="bc0644a7-98c2-4e83-bc37-15f82b879bc5">
+        <div class="formBox">
+            <div class="row50">
+                <div class="inputBox C_field">
+                    <span>First Name</span>
+                    <input name="First_Name" class="C_item" type="text" required>
+                    <div class="error-txt">First Name can't be blank</div>
+                </div>
+                <div class="inputBox C_field">
+                    <span>Last Name</span>
+                    <input name="Last_Name" class="C_item" type="text" required>
+                    <div class="error-txt">Last Name can't be blank</div>
+                </div>
+            </div>
+    
+            <div class="row50">
+                <div class="inputBox C_field">
+                    <span>Email</span>
+                    <input name="Email" class="C_item" type="email" required>
+                    <div class="error-txt">Email can't be blank</div>
+                </div>
+                <div class="inputBox C_field">
+                    <span>Mobile</span>
+                    <input name="Mobile" class="C_item" type="tel" required>
+                    <div class="error-txt">Mobile can't be blank</div>
+                </div>
+            </div>
+    
+            <div class="row100">
+                <div class="inputBox C_field">
+                    <span>Message</span>
+                    <textarea name="Message" class="C_item" placeholder="Write your message here..." required></textarea>
+                    <div class="error-txt">Message can't be blank</div>
+                </div>
+            </div>
+    
+            <div class="row100">
+                <div class="inputBox">
+                    <button type="submit" class="send">SEND</button>
+                </div>
+            </div>
+        </div>
+    </form>
+        <!-- End of Talk to sales-->
+    <div class="footer">
+        <div class="logo-text">
+            <div>
+                <img src="/assets/image.png" alt="image" class="image-05">
+            </div>
+            <div class="text-logo">
+                Visecure: All-In-One Cybersecurity Solution Visecure is a leading cybersecurity<br>
+                company specializing in providing comprehensive protection<br>
+                for business of all sizes.
+            </div>
+        </div>
+        <div class="contact-us">
+            <div class="texts">
+                <ul>
+                    <li class="i">Contact Us</li>
+                    <li><i class="fas fa-phone"></i>+91 91591 06082</li>
+                    <li><a href="mailto:contact@visecure.in" style="color: whitesmoke; text-decoration: none;" class="email-link"><i class="fas fa-envelope" style="display: inline;"></i>contact@visecure.in</a>
+                    </li>                    
+                    <li><a style="text-decoration: none; color: whitesmoke;" href="https://www.visecure.in"><i class="fas fa-globe"></i>www.visecure.in</li>
+                    <li><a style="text-decoration: none; color: whitesmoke;" href="https://www.linkedin.com/company/visecure-in/"><i class="fab fa-linkedin"></i>Visecure</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="company">
+            <div class="texts">
+                <ul> 
+                    <li class="i">Company</li>
+                    <li onclick="location.href='/index.html'"><i class="fas fa-info-circle"></i>Home</li>
+                    <li onclick="location.href='/pages/platform-overview.html'"><i class="fas fa-cogs" ></i>Solutions</li>
+                    <li onclick="location.href='/pages/it-oraganisation.html'"><i class="fas fa-building" onclick="location.href='/pages/it-oraganisation.html'"></i>Industries</li>
+                    <li onclick="location.href='/pages/services.html'"><i class="fas fa-cogs"></i>Services</li>
+                    <li onclick="location.href='/pages/contact.html'"><i class="fas fa-envelope" style="display: inline;"></i> Contact Us</li>
+                </ul>
+            </div>
+        </div>
+        <div class="subscribe">
+            <div class="book-free">
+                <div class="free">
+                    Book a Free Trial Or Subscribe Here
+                </div>
+                <form action="https://api.web3forms.com/submit" method="POST" id="subscribeForm">
+                    <input type="hidden" name="access_key" value="bc0644a7-98c2-4e83-bc37-15f82b879bc5">
+                    <div class="input">
+                        <div>
+                            <input class="input-1" type="email" name="email" placeholder="Subscribe" required>
+                        </div>
+                        <div>
+                            <button class="send" type="submit">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>  
+    </div>
+    <section class="footer">
+        <p style="text-align: center; margin-top: 1%; ">&copy; 2024 Visecure. All rights reserved.</p>
+    </section>
+</footer>
+<!-- Footer End -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script>
+    document.getElementById('open-popup').addEventListener('click', function () {
+        document.getElementById('popup').style.display = 'flex'; // Show the popup
+        });
+
+        document.querySelector('.close-popup').addEventListener('click', function () {
+        document.getElementById('popup').style.display = 'none'; // Hide the popup
+        });
+
+        // JavaScript to handle hover for dropdowns
+        document.querySelectorAll('.navbar-nav .dropdown').forEach(function (dropdown) {
+        dropdown.addEventListener('mouseenter', function () {
+            const dropdownMenu = this.querySelector('.dropdown-menu');
+            dropdownMenu.classList.add('show');
+        });
+
+            dropdown.addEventListener('mouseleave', function () {
+            const dropdownMenu = this.querySelector('.dropdown-menu');
+            dropdownMenu.classList.remove('show');
+        });
+        });
+</script>
+</html>
