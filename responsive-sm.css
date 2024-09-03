@@ -1,0 +1,72 @@
+/* Mobile Responsive Design */
+@media only screen and (max-width: 600px) {
+    .header {
+        padding: 1rem;
+        text-align: center;
+        margin-top: 20%; /* Center-align header text */
+    }
+    .cyber{
+        margin-top: 29%;
+    }
+
+    .modules {
+        padding: 0 1rem; /* Reduce padding for mobile */
+        flex-direction: column; /* Stack items vertically */
+        align-items: stretch; /* Make elements fill the available space */
+    }
+
+    .heading {
+        font-size: 1.5rem;
+        margin-top: 10%; /* Reduce margin for better spacing */
+    }
+
+    .box {
+        flex-direction: column; /* Stack elements vertically */
+        padding: 1rem 5%; /* Reduce side padding */
+        align-items: flex-start; /* Align items to the left */
+        gap: 15px; /* Reduce gap for better spacing */
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2); /* Make border less prominent */
+    }
+
+    .context {
+        width: 100%;
+        padding: 0; /* Remove padding for a cleaner look */
+    }
+
+    .heading-1 {
+        font-size: 1rem;
+        margin-bottom: 0.5rem; /* Adjust spacing for readability */
+        text-align: center; /* Align heading to the left */
+    }
+
+    .text-content {
+        font-size: 0.7rem;
+        margin-bottom: 1rem; /* Adjust spacing for better look */
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .sub-heading {
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .sub-content {
+        font-size: 0.75rem;
+        margin-left: 20px; /* Reduce left margin */
+    }
+
+    .img {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px; /* Add spacing above image */
+    }
+
+    .box img {
+        max-width: 80%; /* Make images more mobile-friendly */
+        margin: 0 auto; /* Center image */
+    }
+    svg{
+        margin-left: 75%;
+    }
+}

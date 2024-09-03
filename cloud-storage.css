@@ -1,0 +1,1261 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Catamaran:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --primary: #fff;
+    --secondary: #091C45;
+    --text-primary: #3e3e3e;
+    --text-secondary: #bababa;
+    --background-color:#efefefe8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Roboto;
+}
+/* File Storage */
+.heading {
+    text-align: center;
+}
+#i{
+    margin-top: 7%;
+}
+.content-1 {
+    font-size: 28px; 
+    margin-top: 2%;
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+.content-2 {
+    color: var(--secondary);
+    margin-top: 2%;
+    font-size: 16px; 
+}
+
+.button {
+    display: flex;
+    margin-left: 0%;
+    margin-right: 0px;
+    gap: 0px; 
+}
+
+.get-start,
+.pricing {
+    padding: 12px 20px; 
+    border-radius: 5px;
+    border: none;
+    font-size: 16px; 
+}
+
+.get-start {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.pricing {
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: 2px solid black; 
+}
+
+.image {
+    text-align: center; 
+}
+
+.image-10 {
+    width: 90%; 
+    height: auto; 
+}
+
+/* Default mobile styles (for screens <= 600px) */
+@media only screen and (max-width: 600px) {
+    .heading {
+        text-align: center;
+    }
+
+    .content-1 {
+        margin-top: 2%;
+        font-size: 17px; 
+        padding: 20px;
+    }
+
+    .content-2 {
+        font-size: 12px; 
+        padding: 0px 20px 0px 20px;
+    }
+
+    .button {
+        display: flex;
+        margin:10px auto;
+        gap: 0px; 
+        width: 80%;
+        justify-content: center;
+        padding: 10px 0px;
+    }
+
+    .get-start,
+    .pricing {
+        padding: 12px 10px; 
+        border-radius: 5px;
+        border: none;
+        font-size: 14px;
+        width: 90%; 
+    }
+
+    .get-start {
+        background-color: var(--secondary);
+        color: var(--primary);
+    }
+
+    .pricing {
+        background-color: var(--primary);
+        color: var(--secondary);
+        border: 2px solid black; 
+    }
+
+    .image {
+        text-align: center;
+    }
+
+    .image-1 {
+        width: 100%; 
+        height: auto; /* Maintain aspect ratio */
+    }
+    #i{
+        margin-top: 25%;
+    }
+}
+
+
+/* End of  File Storage */
+
+
+.header-1{
+    font-size: 32px;
+    color: var(--secondary);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2%;
+}
+.content-3{
+    font-size: 10px;
+    color: var(--secondary);
+    margin-top: 2%;
+    text-align: center;
+}
+.content-4{
+    font-size: 10px;
+    color: var(--secondary);
+    margin-top: 1%;
+    text-align: center;
+}
+.Container{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    margin-top: 5%;
+}
+.box-1{
+    border: 2px solid var(--secondary);
+    background-color: var(--secondary);
+    height: auto;
+    width: auto;
+    color: var(--primary);
+    border-radius: 15px;
+}
+.image-2{
+    width: 5vw;
+    height: 10vh;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.header-2{
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.content-5{
+    margin-top: 5%;
+    padding: 10px 20px;
+    font-weight: lighter;
+}
+.redirect-1{
+    padding: 10px 20px ;
+    margin-top: 4%;
+    color: var(--primary);
+}
+.redirect-2,.redirect-3{
+    padding: 5px 20px ;
+    color: var(--primary);
+}
+@media only screen and (max-width: 600px) {
+    
+    .header-1 {
+        font-size: 20px; 
+        color: var(--secondary);
+        font-weight: bold;
+        text-align: center;
+        margin: 10px; 
+    }
+
+   
+    .content-3, .content-4 {
+        font-size: 12px;
+        padding: 10px 20px 0px 20px;
+        color: var(--secondary);
+        margin-top: 2%;
+        text-align: center;
+    }
+
+    .Container {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        gap: 20px; 
+        margin-top: 5%;
+    }
+
+    
+    .box-1 {
+        border: 2px solid var(--secondary);
+        background-color: var(--secondary);
+        width: 90%; 
+        color: var(--primary);
+        border-radius: 15px;
+        padding: 10px; 
+        box-sizing: border-box; 
+    }
+
+    
+    .image-2 {
+        width: 50px; 
+        height: auto; 
+        margin-top: 5%;
+        margin-left: 40%; 
+        margin-right: 0;
+    }
+
+    
+    .header-2 {
+        margin-top: 2%;
+        font-size: 18px; 
+        font-weight: bold;
+        padding: 10px;
+        text-align: center; 
+    }
+
+    .content-5 {
+        margin-top: 5%;
+        padding: 10px;
+        font-weight: lighter;
+        text-align: center; 
+    }
+
+    .redirect-1, .redirect-2, .redirect-3 {
+        padding: 10px;
+        color: var(--primary);
+        text-align: center; 
+    }
+}
+
+/* end of section 1*/
+
+
+/* start of section 2*/
+.Section-2{
+    margin-top: 5%;
+    padding: 30px 20px;
+}
+.header-3{
+    columns: var(--secondary);
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 8%;
+    text-align: center;
+}
+.Container-1{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+.box-2{
+    margin-top: 5%;
+    height: auto;
+    width: auto;
+    border: none;
+    border-radius: 15px;
+    background-color: #f3f5e2;
+    padding: 10px 20px;
+    text-align: center;
+}
+.box-3{
+    margin-top: 5%;
+    height: auto;
+    width: auto;
+    border: none;
+    border-radius: 15px;
+    background-color: #d0e3eb;
+    padding: 10px 20px;
+    text-align: center;
+}
+.heading-1{
+    margin-right: 0%;
+    color: var(--secondary);
+    font-size: 25px;
+    font-weight: bold;
+}
+.content-6{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 10px;
+}
+.image-3{
+    width: auto;
+    height: 55vh;
+    align-items: center;
+}
+.Container-2{
+    display: flex;
+    justify-content: center;
+}
+.box-4{
+    margin-top: 2%;
+    height: auto;
+    width: 65%;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #dad1ea;
+    display: flex;
+    justify-content: center;
+    gap:5%;
+}
+.image-4{
+    width: auto;
+    height: 44vh;
+}
+.text-content-3{
+    margin-top: 5%;
+}
+.heading-2{
+    font-weight: bold;
+    color: var(--secondary);
+    font-size: 30px;
+}
+.content-7{
+    margin-top: 3%;
+    color: var(--secondary);
+    font-size: 14px;
+}
+.button{
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+.get-start{
+    padding: 10px 13px;
+    background-color: var(--secondary);
+    color: var(--primary);
+    border-radius: 5px;
+    border: none;
+}
+.pricing{
+    padding: 10px 16px;
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-radius: 5px;
+    border: 2px solid black;
+}
+/* Mobile responsiveness for Section 2 */
+@media only screen and (max-width: 600px) {
+    .Section-2 {
+        margin-top: 2%; 
+        padding: 20px; 
+    }
+
+    .header-3 {
+        font-size: 19px; 
+        margin-left: 0; 
+        text-align: center; 
+    }
+
+    .Container-1 {
+        flex-direction: column; 
+        gap: 10px; 
+        margin-top: 3%;
+    }
+
+    .box-2, .box-3 {
+        margin-top: 2%; 
+        width: 100%; 
+        padding: 10px; 
+        box-sizing: border-box; 
+    }
+
+    .heading-1 {
+        color: var(--secondary);
+        font-size: 20px; 
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .content-6 {
+        font-size: 12px; 
+    }
+
+    .image-3 {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .Container-2 {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .box-4 {
+        margin-top: 2%;
+        width: 100%; 
+        padding: 10px; 
+        box-sizing: border-box; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-4 {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .text-content-3 {
+        text-align: center; 
+    }
+
+    .heading-2 {
+        font-size: 20px; 
+        text-align: center; 
+    }
+
+    .content-7 {
+        font-size: 12px; 
+        text-align: center;
+    }
+
+    .button {
+        margin-top: 2%; 
+    }
+
+    .get-start, .pricing {
+        padding: 2px 6px; 
+        font-size: 14px; 
+        width: 45%; 
+        box-sizing: border-box; 
+    }
+}
+
+/* end of section 1*/
+
+/* Point of Visecure */
+
+.Section-3{
+    display: flex;
+    justify-content: center;
+    gap:3%;
+}
+.Container-3{
+    display: flex;
+    padding: 17% 0%;
+}
+.heading-3{
+    font-weight: bold;
+    color: var(--secondary);
+    font-size: 32px;
+}
+.content-8{
+    margin-top: 3%;
+    color: var(--secondary);
+    font-size: 14px;
+    font-weight: lighter;
+}
+.Container-4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.box-5{
+    display: flex;
+    gap:2%;
+    margin-top: 13%;
+}
+.image-5{
+    width: auto;
+    height: 10vh;
+}
+.heading-4{
+    font-size: 20px;
+    color: var(--secondary);
+    font-weight: bold;
+}
+.content-9{
+    font-size: 14px;
+    color: var(--secondary);
+    margin-top: 2%;
+    font-weight: lighter;
+}
+.Container-5{
+    background-color: #091C45;
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    padding-top: 10vh;
+}
+.header-4{
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 32px;
+}
+.header-4 span{
+    color: #3434ab;
+}
+.content-10{
+    color: var(--primary);
+    font-size: 14px;
+}
+/* Mobile responsiveness for point to visecure */
+@media only screen and (max-width: 600px) {
+    .Section-3 {
+        display: block;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .Container-3 {
+        display: block; 
+        padding: 0;
+    }
+
+    .heading-3 {
+        font-size: 24px;
+    }
+
+    .content-8 {
+        font-size: 12px; 
+        margin-top: 3%;
+    }
+
+    .Container-4 {
+        display: block; 
+        margin-top: 5%;
+    }
+
+    .box-5 {
+        display: block; 
+        margin-top: 5%;
+        text-align: center; 
+    }
+
+    .box-5 .images {
+        margin: 0 auto; 
+    }
+
+    .image-5 {
+        width: 25%; 
+        height: auto; 
+        margin: 0 auto; 
+    }
+
+    .heading-4 {
+        font-size: 18px; 
+    }
+
+    .content-9 {
+        font-size: 12px; 
+        margin-top: 2%;
+    }
+}
+
+/* end of point visecure */
+
+/* start of Fair price */
+
+.Container-6{
+    display: flex;
+    margin-top: 8%;
+    justify-content: center;
+}
+.box-6 {
+    border-radius: 10px;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 20px 12px rgba(49, 47, 47, 0.5); /* Adjust the alpha for transparency */
+    width: 30vw;
+    height: 65vh;
+}
+
+.heading-5{
+    color: black;
+    font-size: 20px;
+    margin-top: 5%;
+}
+.content-11{
+    font-weight: lighter;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 7%;
+}
+.price{
+    font-weight: bold;
+    color: black;
+    font-size: 32px;
+    margin-top: 10%;
+}
+.price span{
+    display: block;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 5vh;
+}
+.btn-1{
+    background-color: var(--secondary);
+    color: var(--primary);
+    height: 5vh;
+    width: 80%;
+    padding: 6px 0px;
+    border-radius: 10px;
+    margin-left: 11%;
+    font-size: 14px;
+    align-items: center;
+    margin-top: 2%;
+}
+.text-content-6{
+    margin-top: 8vh;
+    font-size: 14px;
+    padding: 0 10px 0 10px;
+    line-height: 3.5vh;
+}
+.box-7{
+    width: 48vw;
+    border-radius: 10px;
+    background-color: #5454e6;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 55vh;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.heading-6{
+    margin-top: 5%;
+    color: var(--primary);
+    font-size: 20px;
+    margin-left: 2%;
+}
+.line{
+    max-width: 100%;
+    color: whitesmoke;
+    margin-left: 2%;
+}
+.content-12{
+    font-weight: lighter;
+    color: var(--primary);
+    font-size: 14px;
+    text-align: start;
+    margin-left: 2%;
+}
+.box-line-1{
+    margin-left: 2%;
+    width: 20vw;
+    height: 4vh;
+    padding: 3px 10px;
+    border-radius: 10px;
+    background-color: var(--primary);
+    color:black;
+    margin-top: 7%;
+}
+.box-line-1 p{
+    text-align: start;
+}
+.price-1{
+    margin-top: 1%;
+    color: var(--primary);
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 2%;
+}
+.price-1 span{
+    font-weight: lighter;
+    font-size: 14px;
+    margin-left: 0%;
+}
+.box-line-2{
+    margin-left: 2%;
+    width: 20vw;
+    height: 4vh;
+    padding: 3px 10px;
+    border-radius: 10px;
+    background-color: var(--primary);
+    color:black;
+    margin-top: 7%;
+}
+.box-line-2 p{
+    text-align: start;
+}
+.price-2{
+    margin-top: 1%;
+    color: var(--primary);
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 2%;
+}
+.price-2 span{
+    font-weight: lighter;
+    font-size: 14px;
+    margin-left: 0%;
+}
+.Section-5{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 25%;
+}
+.content-13{
+    color: var(--secondary);
+    font-size: 14px;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:30px;
+    margin-top: 2%;
+}
+.cal{
+    padding: 10px 13px;
+    background-color: var(--secondary);
+    color: var(--primary);
+    border-radius: 5px;
+    border: none;
+}
+.Comparision{
+    padding: 10px 13px;
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-radius: 5px;
+    border-color: #091C45;
+}
+@media only screen and (max-width: 600px) {
+    .Section-4 {
+        padding: 0 10px; 
+        text-align: center;
+        margin-top: 5%; 
+    }
+
+    .Container-5 {
+        display: block; 
+        padding: 10px;
+    }
+
+    .header-4 {
+        font-size: 24px; 
+    }
+
+    .content-10 {
+        font-size: 14px; 
+        margin-top: 10px;
+    }
+
+    .Container-6 {
+        display: block; 
+        margin-top: 20px; 
+    }
+
+    .box-6, .box-7 {
+        width: 100%; 
+        margin: 10px 0; 
+        padding: 10px; 
+    }
+
+    .box-6 {
+        background-color: var(--primary);
+        border-radius: 10px;
+        box-shadow: 0px 10px 6px rgba(49, 47, 47, 0.5); /* Adjust shadow */
+        height: auto; 
+        text-align: center;
+    }
+
+    .heading-5 {
+        font-size: 18px; 
+        margin-top: 5%;
+    }
+
+    .content-11 {
+        font-size: 12px; 
+        margin-top: 5%;
+    }
+
+    .price {
+        font-size: 24px; 
+        margin-top: 10%;
+    }
+
+    .price span {
+        font-size: 12px; 
+    }
+
+    .btn-1 {
+        width: 90%; 
+        margin: 10px auto; 
+    }
+
+    .text-content-6 {
+        font-size: 12px; 
+        line-height: 2.5vh; 
+        margin-top: 5%;
+    }
+
+    .box-7 {
+        background-color: #5454e6;
+        border-radius: 10px;
+        text-align: center;
+        height: auto; 
+        margin-top: 10px; 
+    }
+
+    .heading-6 {
+        font-size: 18px; 
+        margin-top: 5%;
+    }
+
+    .line {
+        margin: 10px auto; /* Center line */
+        width: 80%; /* Adjust width for mobile */
+    }
+
+    .content-12 {
+        font-size: 12px; /* Adjust font size for mobile */
+        margin: 10px auto; /* Center text */
+    }
+
+    .box-line-1, .box-line-2 {
+        width: 90%; /* Full width for mobile */
+        padding: 5px;
+    }
+
+    .price-1, .price-2 {
+        font-size: 24px; /* Adjust font size for mobile */
+        margin-top: 5%;
+    }
+
+    .price-1 span, .price-2 span {
+        font-size: 12px; /* Adjust font size for mobile */
+    }
+
+    .Section-5 {
+        display: block; 
+        text-align: center;
+        margin-top: 84%;
+        padding: 10px 20px;
+    }
+
+    .content-13 {
+        font-size: 14px; 
+        margin-bottom: 20px; /* Margin for spacing */
+    }
+
+    .btns {
+        display: flex;
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: center;
+        gap: 10px;
+    }
+
+    .cal, .Comparision {
+        padding: 10px 20px; /* Adjust padding for buttons */
+        border-radius: 5px;
+        width: 80%; /* Full width buttons */
+    }
+
+    .cal {
+        background-color: var(--secondary);
+        color: var(--primary);
+        border: none;
+    }
+
+    .Comparision {
+        background-color: var(--primary);
+        color: var(--secondary);
+        border-color: black;
+    }
+}
+
+/* end of Fair price */
+
+
+/* how it work */
+
+.how-it{
+    margin-top: 2%;
+    text-align: center;
+}
+.header-5{
+    color: var(--secondary);
+    font-size: 34px;
+    font-weight: bold;
+}
+.text-content-7{
+    margin-top: 2%;
+    color: var(--secondary);
+    font-weight: lighter;
+}
+.Container-7{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+}
+.image-20{
+    margin-top: 10%;
+    width: 5vw;
+    height: auto;
+}
+.header-6{
+    color: var(--secondary);
+    margin-top: 5%;
+    font-size: 24px;
+    font-weight: bold;
+}
+.text-content-8{
+    font-weight: lighter;
+    font-size: 14px;
+    margin-top: 5%;
+}
+@media only screen and (max-width: 600px) {
+    .how-it {
+        margin-top:10%;
+        text-align: center; 
+        padding: 10 10px;
+        display: block; 
+    }
+
+    .header-5 {
+        font-size: 24px; 
+    }
+
+    .text-content-7 {
+        font-size: 14px; 
+        margin-top: 2%;
+    }
+
+    .Container-7 {
+        display: block;
+        margin-top: 10px; 
+    }
+
+    .works {
+        display: block; 
+        margin: 20px 0; 
+        text-align: center; 
+    }
+
+    .container-1 {
+        display: block; 
+        padding: 0 10px; 
+    }
+
+    .image-20 {
+        width: 25%; 
+        height: auto; 
+        margin-top: 10%;
+    }
+
+    .header-6 {
+        font-size: 18px; 
+        margin-top: 10px; 
+    }
+
+    .text-content-8 {
+        font-size: 12px; 
+        margin-top: 5%;
+    }
+}
+
+/* end of how it work */
+
+
+/* ready to started */
+
+.Section-6{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-around;
+}
+.text-content-9{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.an{
+    margin-top: 2%;
+}
+.header-7{
+    font-size: 24px;
+    color: var(--secondary);
+    font-weight: bold;
+}
+.content-14{
+    font-weight: lighter;
+    font-size: 14px;
+    color: var(--secondary);
+    margin-top: 2%;
+}
+.create-an{
+    padding: 10px 13px;
+    background-color: var(--secondary);
+    color: var(--primary);
+    border-radius: 10px;
+    border: none;
+}
+.Section-7{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    gap:20px;
+}
+.Container-8{
+    width: auto;
+    height: 40vh;
+    background-color: var(--secondary);
+    color: var(--primary);
+    border-radius: 20px;
+}
+.box-10{
+    border-radius: 25px;
+}
+
+.heading-10{
+color: var(--primary);
+margin-top: 3%;
+margin-left: 2%;
+font-size: 24px;
+font-weight: bold;
+}
+.content-15{
+    margin-top: 3%;
+    margin-left: 2%;
+    font-weight: lighter;
+}
+.hanger-1{
+    color: var(--primary);
+    margin-left: 3%;
+    font-size: 14px;
+    margin-top: 2%;
+}
+.image-21{
+    width: 5vw;
+    height: 7vh;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.image-22{
+    width: 20vw;
+    height: 30vh;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+.Container-90{
+    width: 52vw;
+    height: 40vh;
+    background-color: var(--text-secondary);
+    border-radius: 25px;
+}
+.box-11{
+    display: flex;
+    gap:10px;
+}
+.heading-11{
+    color: var(--secondary);
+    margin-top: 2%;
+    margin-left: 3%;
+    font-size: 24px;
+    font-weight: bold;
+}
+.content-16{
+    margin-left: 3%;
+    font-weight: lighter;
+    color: var(--secondary);
+    margin-top: 2%;
+}
+.hanger-20{
+    margin-left: 3%;
+    color: var(--secondary);
+    font-size: 14px;
+    margin-top:2%;
+}
+@media only screen and (max-width: 600px) {
+    /* Section 6: Ready to get started */
+    .Section-6 {
+        display: block; /* Stack content vertically */
+        text-align: center; /* Center-align text */
+        padding: 0 10px; /* Add padding for better spacing */
+        margin-top: 5%; /* Adjust margin for spacing */
+    }
+
+    .text-content-9 {
+        margin-bottom: 10px; /* Add bottom margin for spacing */
+    }
+
+    .header-7 {
+        font-size: 20px; /* Adjust font size for mobile */
+    }
+
+    .content-14 {
+        font-size: 14px; /* Adjust font size for mobile */
+        margin-top: 5px; /* Adjust margin for spacing */
+    }
+
+    .an {
+        margin-top: 10px; /* Adjust margin for spacing */
+    }
+
+    .create-an {
+        padding: 10px 20px; /* Adjust padding for mobile */
+        width: 80%; /* Full width button */
+        font-size: 14px; /* Adjust font size for mobile */
+    }
+
+    /* Section 7: Individual vs. Business */
+    .Section-7 {
+        display: block; /* Stack content vertically */
+        margin-top: 10%; /* Adjust margin for spacing */
+        padding: 0px 10px 10px 10px; /* Add padding for better spacing */
+        text-align: center; /* Center-align text */
+    }
+
+    .Container-8, .Container-9 {
+        width: 100%; /* Full width for mobile */
+        height: auto; /* Adjust height for content */
+        margin: 10px 0px 0px 0px; /* Add margin for spacing */
+        padding: 10px 10px; /* Add padding for better spacing */
+    }
+
+    .box-10, .box-11 {
+        display: block; /* Stack content vertically */
+        text-align: center; /* Center-align text */
+        margin: 0 auto; /* Center align the box */
+    }
+
+    .image-21 {
+        width: 25%; /* Adjust image width for mobile */
+        height: auto; /* Maintain aspect ratio */
+        margin-top: 2%; /* Adjust margin for spacing */
+    }
+
+    .image-22 {
+        width: 60%; 
+        height: auto; 
+        margin-top: 10%;
+        margin-right: 0; 
+        order: 3;
+    }
+
+    .heading-10, .heading-11 {
+        font-size: 20px; 
+        margin-top: 10px;
+        order: 1; 
+    }
+
+    .content-15, .content-16 {
+        font-size: 14px; 
+        margin-top: 5px; 
+        line-height: 1.4; 
+        order: 2;
+    }
+
+    .hanger-1, .hanger-2 {
+        font-size: 14px; 
+        margin-top: 10px; 
+        order: 4;
+    }
+}
+
+/* ENd of ready to started */
+
+
+/* Form container styling */
+form{
+    padding-bottom: 10px;
+}
+.formBox {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Row styling */
+.row50 {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.row100 {
+    margin-bottom: 20px;
+}
+
+/* Input box styling */
+.inputBox {
+    position: relative;
+    width: 100%;
+}
+
+.C_field span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--secondary);
+}
+
+.C_item {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+/* Error text styling */
+.error-txt {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none; /* Initially hidden */
+}
+
+/* Button styling */
+.buttons {
+    padding: 7px 20px;
+    background-color: var(--secondary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buttons:hover {
+    background-color: #0056b3; /* Adjust color on hover */
+}
+
+/* end  of talk */

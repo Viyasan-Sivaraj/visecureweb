@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    margin-top: 7%;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.talk-to-sales {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b2447;
+    padding: 40px 20px; /* Adjusted padding for smaller screens */
+    color: white;
+    text-align: center;
+}
+
+.sales-form {
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0 10px; /* Added padding to ensure better fit on small screens */
+}
+
+.sales-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.sales-form p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.sales-form form {
+    display: grid;
+    gap: 10px;
+}
+
+.sales-form input,
+.sales-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.send-1 {
+    padding: 8px 12px; /* Adjusted padding to make button smaller */
+    border: none;
+    background-color: #ffffff;
+    color: #0b2447;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; /* Adjust font size */
+    width: auto; /* Adjust width to fit content */
+}
+
+.illustration img {
+    width: 100%; /* Set width to 100% for better scaling */
+    max-width: 300px; /* Maximum width to prevent oversized images */
+    margin-left: 0;
+}
+
+/* Adjust for larger screens */
+@media (min-width: 768px) {
+    .talk-to-sales {
+        display: flex; /* Ensure flex container */
+        flex-direction: row;
+    }
+    .illustration img {
+        width: 400px;
+        margin-left: 50px;
+    }
+}
+
+
+.why-viesecure {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.certifications {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates three equal columns */
+    gap: 20px; /* Adjusts the gap between images */
+    justify-items: center; /* Center images horizontally */
+    margin-top: 20px;
+}
+
+.certification {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center images and text */
+}
+
+.certification img {
+    width: 120px; /* Adjust size as needed */
+    height: 120px; /* Adjust size as needed */
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+/* Center the 4th image in a new row */
+.certification:nth-child(4) {
+    grid-column: 1 / -1; /* Span all columns to center it */
+    justify-self: center; /* Center the image within the grid cell */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+    .sales-form h2 {
+        font-size: 20px;
+    }
+    .header{
+        margin-top: 20%;
+    }
+    .sales-form p {
+        font-size: 12px;
+    }
+
+    .sales-form .send {
+        font-size: 13px; /* Adjust font size for smaller screens */
+        padding: 6px 10px; /* Reduced padding for mobile screens */
+    }
+
+    .contact-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .certifications {
+        grid-template-columns: 1fr; /* Single column on smaller screens */
+        grid-template-rows: auto auto; /* Adjust rows for single column layout */
+    }
+
+    .certification:nth-child(4) {
+        grid-column: 1 / -1; /* Span all columns in single column layout */
+        justify-self: center; /* Center the image */
+    }
+}
+
+@media (max-width: 480px) {
+    .talk-to-sales {
+        padding: 20px 10px; /* Further reduce padding */
+    }
+
+    .sales-form {
+        padding: 0 5px; /* Adjust side padding to prevent overflow */
+    }
+
+    .sales-form h2 {
+        font-size: 18px; /* Further reduce heading size */
+    }
+
+    .sales-form .send {
+        padding: 5px 8px; /* Smaller padding for very small screens */
+        font-size: 12px; /* Smaller font for button */
+    }
+
+    .illustration img {
+        max-width: 100%; /* Ensure image fits within screen */
+    }
+
+    .contact-info {
+        gap: 10px; /* Adjust gap for better layout on small screens */
+    }
+}

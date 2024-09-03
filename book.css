@@ -1,0 +1,166 @@
+:root {
+    --green: #5FC977;
+    --primary: #fff;
+    --secondary: #091C45;
+    --text-primary: #3e3e3e;
+    --text-secondary: #bababa;
+}
+section{
+    padding: 20px;
+}
+body-unique {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: var(--text-primary);
+}
+
+header-unique {
+    background-color: var(--secondary);
+    color: var(--primary);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header-unique .logo img {
+    height: 50px;
+    vertical-align: middle;
+}
+
+nav-unique ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav-unique ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav-unique ul li a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav-unique ul li a:hover {
+    text-decoration: underline;
+}
+
+main-unique {
+    padding: 40px 20px;
+}
+
+.form-container-unique {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.form-header-unique {
+    text-align: center;
+    font-size: 28px;
+    color: var(--secondary);
+    margin-bottom: 20px;
+    margin-top: 10%;
+}
+
+.form-description-unique {
+    text-align: center;
+    font-size: 18px;
+    color: var(--text-primary);
+    margin-bottom: 30px;
+}
+
+.label-email-unique,
+.name-label-unique,
+.label-phone-unique,
+.label-referral-unique {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--secondary);
+}
+
+.input-email-unique,
+.input-first-name-unique,
+.input-last-name-unique,
+.input-phone-unique,
+.input-referral-unique {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.name-fields-unique {
+    display: flex;
+    gap: 15px;
+}
+
+.name-fields-unique .input-first-name-unique,
+.name-fields-unique .input-last-name-unique {
+    flex: 1;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.label-service-unique {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--secondary);
+}
+
+.select-service-unique {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: var(--text-primary);
+    background-color: #fff;
+    appearance: none; /* Hide default dropdown arrow */
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23091C45" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+}
+
+
+.submit-button-unique {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--green);
+    color: var(--primary);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.submit-button-unique:hover {
+    background-color: rgb(0, 87, 179);
+}
+
+footer-unique {
+    text-align: center;
+    padding: 20px 0;
+    background-color: var(--secondary);
+    color: var(--primary);
+    margin-top: 40px;
+}
