@@ -210,8 +210,7 @@ cursor: pointer;
 }
 .mceob .content-1 {
     padding: 5% ;
-}
-.slider {
+}.slider {
     display: grid;
     place-items: center;
     height: 250px;
