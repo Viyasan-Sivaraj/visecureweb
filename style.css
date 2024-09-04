@@ -334,6 +334,7 @@ transform: rotateZ(180deg);
     text-align: center;
     background: var(--secondary);
     padding-bottom: 30px;
+    margin-top: 5%;
 }
 
 .ms .left {
