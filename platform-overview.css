@@ -342,8 +342,9 @@ margin-top: 5%; /* Stack elements vertically within header-1 */
     height: 250px;
     margin: auto;
     position: relative;
-    width: 90%;
+    width: 100%;
     overflow: hidden;
+    margin-top: 1.5%;
 }
 
 .slider-track {
@@ -355,11 +356,10 @@ margin-top: 5%; /* Stack elements vertically within header-1 */
 .slide {
     height: 200px;
     width: 250px;
+    gap:10px;
     display: flex;
     align-items: center;
     padding: 10px;
-    border: 1px solid black;
-    border-radius: 20px;
 }
 
 @keyframes scroll {
@@ -377,7 +377,6 @@ margin-top: 5%; /* Stack elements vertically within header-1 */
 
 .slider::before,
 .slider::after {
-    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0));
     content: '';
     height: 100%;
     position: absolute;
@@ -420,8 +419,6 @@ gap:10px;
 display: flex;
 align-items: center;
 padding: 10px;
-border: 1px solid black;
-border-radius: 20px;
 }
 
 @keyframes scrolls {
@@ -434,12 +431,11 @@ transform: translateX(250px *7); /* Move to the left end, off-screen */
 }
 
 .animation {
-width: 90%;
+width: 100%;
 }
 
 .slider-1::before,
 .slider-1::after {
-background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0));
 content: '';
 height: 100%;
 position: absolute;
