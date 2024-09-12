@@ -137,7 +137,7 @@ cursor: pointer;
     flex-direction: column;
     color: var(--secondary);
     text-align: center;
-    border-bottom: 2px solid var(--secondary);
+    border-bottom: 1px solid var(--secondary);
     padding-bottom: 30px;
 }
 
