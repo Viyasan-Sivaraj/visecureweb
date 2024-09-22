@@ -669,13 +669,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
         var price;
         if (isYearly && isManaged) {
-            price = "₹ 850"; // Yearly Managed
+            price = "$ 9"; // Yearly Managed
         } else if (isYearly && !isManaged) {
-            price = "₹ 595"; // Yearly Unmanaged
+            price = "$ 6"; // Yearly Unmanaged
         } else if (!isYearly && !isManaged) {
-            price = "₹ 765"; // Monthly Unmanaged
+            price = "$ 7.50"; // Monthly Unmanaged
         } else {
-            price = "₹ 1020"; // Monthly Managed
+            price = "$ 10.50"; // Monthly Managed
         }
 
         // Update the price elements
