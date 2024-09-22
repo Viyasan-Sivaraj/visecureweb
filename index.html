@@ -671,5 +671,19 @@ window.addEventListener('click', function(e) {
 });
 
 </script>
+<script>
+    // Use querySelectorAll to select multiple buttons by their IDs or a common class
+    const buttons = document.querySelectorAll("#open-popup-1, #open-popup-2, #open-popup-3");
+
+    buttons.forEach(button => {
+        button.addEventListener("click", function() {
+            if (window.innerWidth > 768) { 
+            } else {
+                // Redirect to another page on mobile screens
+                window.location.href = "book.html";
+            }
+        });
+    });
+</script>
 </body>
 </html>
