@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="icon" type="image/x-icon" href="/assets/website-logo.png">
+    
 </head>
 <body style="overflow-x: hidden;">
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
@@ -476,6 +477,13 @@
     <section class="footer">
         <p style="text-align: center; margin-top: 1%; ">&copy; 2024 Visecure. All rights reserved.</p>
     </section>    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            if (location.pathname.endsWith(".html")) {
+                window.history.replaceState(null, "", location.pathname.replace(".html", ""));
+            }
+        });
+    </script>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script>
