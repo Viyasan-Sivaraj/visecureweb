@@ -670,7 +670,13 @@
         <p style="text-align: center; margin-top: 1%;color: whitesmoke;">&copy; 2024 Visecure. All rights reserved.</p>
     </section>
     <!--end of footer-->
-    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            if (location.pathname.endsWith(".html")) {
+                window.history.replaceState(null, "", location.pathname.replace(".html", ""));
+            }
+        });
+    </script>
 </body>
 <script>
 document.addEventListener("DOMContentLoaded", function () {
