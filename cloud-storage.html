@@ -530,6 +530,13 @@
     <section class="footer">
         <p style="text-align: center; margin-top: 1%; ">&copy; 2024 Visecure. All rights reserved.</p>
     </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            if (location.pathname.endsWith(".html")) {
+                window.history.replaceState(null, "", location.pathname.replace(".html", ""));
+            }
+        });
+    </script>
 </footer>
 <!-- Footer End -->
 </body>
