@@ -625,6 +625,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <p style="text-align: center; margin-top: 1%; ">&copy; 2024 Visecure. All rights reserved.</p>
         </section>
     </footer>
+         <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            if (location.pathname.endsWith(".html")) {
+                window.history.replaceState(null, "", location.pathname.replace(".html", ""));
+            }
+        });
+    </script>
     <!-- Footer End -->
 
     <script>     
